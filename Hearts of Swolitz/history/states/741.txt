@@ -1,0 +1,23 @@
+
+state={
+	id=741
+	name="STATE_741"
+	resources={
+		steel=1.000
+	}
+	impassable = yes
+
+	history={
+		owner = X82
+		add_core_of = X82
+		add_claim_by = EGY
+		add_claim_by = X84
+	}
+
+	provinces={
+		1143 7216 10127 
+	}
+	manpower=149052
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+}

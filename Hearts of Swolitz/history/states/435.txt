@@ -1,0 +1,32 @@
+
+state={
+	id=435
+	name="STATE_435"
+	resources={
+		oil=3.000
+		steel=3.000
+		tungsten=8.000
+	}
+
+	history={
+		owner = QUE
+		victory_points = {
+			4695 1 
+		}
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 1
+			arms_factory = 0
+			air_base = 1
+
+		}
+		add_core_of = QUE
+	}
+
+	provinces={
+		3800 4695 6779 
+	}
+	manpower=1058942
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

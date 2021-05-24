@@ -1,0 +1,35 @@
+
+state={
+	id=174
+	name="STATE_174"
+	resources={
+		aluminium=3.000
+		tungsten=5.000
+	}
+
+	history={
+		owner = FLA
+		victory_points = {
+			11136 1 
+		}
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 0
+			arms_factory = 0
+			dockyard = 1
+			11136 = {
+				naval_base = 10
+			}
+			air_base = 0
+
+		}
+		add_core_of = FLA
+	}
+
+	provinces={
+		200 9161 11055 11136 11207 
+	}
+	manpower=387564
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

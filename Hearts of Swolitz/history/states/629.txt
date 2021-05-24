@@ -1,0 +1,33 @@
+
+state={
+	id=629
+	name="STATE_629"
+	resources={
+		steel=1.000
+	}
+
+	history={
+		owner = X74
+		victory_points = {
+			4948 0 
+		}
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 0
+			arms_factory = 0
+			4948 = {
+				naval_base = 1
+			}
+			air_base = 1
+
+		}
+		add_claim_by = X74
+	}
+
+	provinces={
+		4948 
+	}
+	manpower=674040
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

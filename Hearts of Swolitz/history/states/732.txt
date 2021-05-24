@@ -1,0 +1,30 @@
+
+state={
+	id=732
+	name="STATE_732"
+	resources={
+		steel=6.000
+	}
+
+	history={
+		owner = X82
+		victory_points = {
+			9860 2 
+		}
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 2
+			arms_factory = 0
+			air_base = 0
+
+		}
+		add_core_of = X82
+	}
+
+	provinces={
+		876 3890 6965 7620 9761 9823 9860 9912 11759 11871 
+	}
+	manpower=1086636
+	buildings_max_level_factor=1.000
+	state_category=town
+}

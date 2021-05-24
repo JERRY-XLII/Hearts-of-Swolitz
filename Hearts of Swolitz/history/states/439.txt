@@ -1,0 +1,32 @@
+
+state={
+	id=439
+	name="STATE_439"
+	resources={
+		aluminium=11.000
+		chromium=6.000
+		steel=1.000
+	}
+
+	history={
+		owner = ROM
+		victory_points = {
+			3696 2 
+		}
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 2
+			arms_factory = 1
+			air_base = 1
+
+		}
+		add_core_of = ROM
+	}
+
+	provinces={
+		646 662 696 713 746 3649 3696 6682 6697 9606 9640 9687 11592 11608 
+	}
+	manpower=1914608
+	buildings_max_level_factor=1.000
+	state_category=large_town
+}

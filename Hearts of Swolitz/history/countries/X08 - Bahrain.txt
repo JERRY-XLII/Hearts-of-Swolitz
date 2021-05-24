@@ -1,0 +1,82 @@
+﻿capital = 34
+set_research_slots = 3
+
+oob = "X08_OOB"
+if = {
+	limit = { has_dlc = "Man the Guns" }
+		set_naval_oob = "X08_1936_naval_mtg"
+	else = { 
+		set_naval_oob = "X08_1936_naval_legacy"
+	}
+}
+
+# Starting tech
+# Research Bonuses
+set_convoys = 0
+
+
+set_politics = {
+    ruling_party = absolutist
+    last_election = "1812.3.5"
+    election_frequency = 48
+    elections_allowed = no
+}
+
+set_popularities = {
+	absolutist = 73
+	democratic = 25
+	neutrality = 2
+}
+
+add_opinion_modifier = { target = BAY modifier = negative_20 }
+add_opinion_modifier = { target = CUB modifier = negative_10 }
+add_opinion_modifier = { target = HUN modifier = negative_30 }
+add_opinion_modifier = { target = MON modifier = positive_30 }
+add_opinion_modifier = { target = MOR modifier = positive_55 }
+add_opinion_modifier = { target = OMA modifier = positive_65 }
+add_opinion_modifier = { target = PRU modifier = negative_10 }
+add_opinion_modifier = { target = SWI modifier = negative_30 }
+add_opinion_modifier = { target = TUN modifier = positive_25 }
+add_opinion_modifier = { target = X00 modifier = negative_30 }
+add_opinion_modifier = { target = X03 modifier = negative_10 }
+add_opinion_modifier = { target = X04 modifier = negative_10 }
+add_opinion_modifier = { target = X11 modifier = negative_10 }
+add_opinion_modifier = { target = X20 modifier = negative_20 }
+add_opinion_modifier = { target = X30 modifier = positive_10 }
+add_opinion_modifier = { target = X36 modifier = negative_10 }
+add_opinion_modifier = { target = X42 modifier = positive_30 }
+add_opinion_modifier = { target = X53 modifier = positive_30 }
+add_opinion_modifier = { target = X67 modifier = positive_30 }
+add_opinion_modifier = { target = X68 modifier = negative_10 }
+add_opinion_modifier = { target = X73 modifier = negative_10 }
+add_opinion_modifier = { target = X79 modifier = positive_30 }
+add_opinion_modifier = { target = X82 modifier = negative_10 }
+add_opinion_modifier = { target = X83 modifier = positive_30 }
+add_opinion_modifier = { target = X88 modifier = positive_20 }
+add_opinion_modifier = { target = X89 modifier = negative_10 }
+add_opinion_modifier = { target = YEM modifier = positive_50 }
+
+
+
+add_ideas = {
+	volunteer_only
+	civilian_economy
+	export_focus
+	culture_bedouin
+}
+create_country_leader = {
+	name = "al-Din ibn"
+	desc = "POLITICS_AL-DIN_IBN_DESC"
+	picture = "gfx/leaders/EGY/Portrait_EGY_faud_i.dds"
+	expire = "1965.1.1"
+	ideology = absolute_monarchy
+	traits = {
+	}
+}
+### VARIANTS ###
+if = {
+	limit = { not = { has_dlc = "Man the Guns" } }
+}
+if = {
+	limit = { has_dlc = "Man the Guns" }
+}

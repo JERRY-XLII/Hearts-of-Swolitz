@@ -1,0 +1,31 @@
+
+state={
+	id=420
+	name="STATE_420"
+
+	history={
+		owner = QUE
+		victory_points = {
+			1424 7 
+		}
+		buildings = {
+			infrastructure = 9
+			industrial_complex = 6
+			arms_factory = 3
+			dockyard = 3
+			1424 = {
+				naval_base = 10
+			}
+			air_base = 3
+
+		}
+		add_core_of = QUE
+	}
+
+	provinces={
+		634 1354 1424 4285 4342 4360 4362 4430 4432 4623 7304 7361 7379 7644 10244 12289 
+	}
+	manpower=7014512
+	buildings_max_level_factor=1.000
+	state_category=megalopolis
+}

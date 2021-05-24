@@ -1,0 +1,32 @@
+
+state={
+	id=623
+	name="STATE_623"
+
+	history={
+		owner = X74
+		victory_points = {
+			7151 1 
+		}
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 1
+			arms_factory = 0
+			4115 = {
+				naval_base = 1
+			}
+			air_base = 1
+
+		}
+		add_core_of = X74
+		add_claim_by = EGY
+		add_claim_by = SYR
+	}
+
+	provinces={
+		4017 4115 4562 4574 4591 4603 7151 10089 11976 
+	}
+	manpower=396422
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

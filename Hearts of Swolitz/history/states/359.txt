@@ -1,0 +1,26 @@
+
+state={
+	id=359
+	name="STATE_359"
+
+	history={
+		owner = MON
+		victory_points = {
+			1684 0 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 0
+
+		}
+	}
+
+	provinces={
+		1664 1684 4715 4817 7768 7867 9142 10592 10620 12574 12602 12672 
+	}
+	manpower=30656
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

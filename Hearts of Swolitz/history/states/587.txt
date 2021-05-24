@@ -1,0 +1,30 @@
+
+state={
+	id=587
+	name="STATE_587"
+
+	history={
+		owner = USA
+		victory_points = {
+			10440 2 
+		}
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 2
+			arms_factory = 0
+			10440 = {
+				naval_base = 8
+			}
+			air_base = 1
+
+		}
+		add_core_of = USA
+	}
+
+	provinces={
+		10440 
+	}
+	manpower=2138016
+	buildings_max_level_factor=1.000
+	state_category=town
+}

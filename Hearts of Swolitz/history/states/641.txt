@@ -1,0 +1,33 @@
+
+state={
+	id=641
+	name="STATE_641"
+	resources={
+		aluminium=4.000
+		rubber=1.000
+	}
+
+	history={
+		owner = X74
+		victory_points = {
+			5212 0 
+		}
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 0
+			arms_factory = 0
+			2120 = {
+				naval_base = 1
+			}
+			air_base = 0
+
+		}
+	}
+
+	provinces={
+		2120 2193 5212 12935 
+	}
+	manpower=765644
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

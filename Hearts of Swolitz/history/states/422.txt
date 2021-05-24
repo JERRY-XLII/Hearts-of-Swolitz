@@ -1,0 +1,30 @@
+
+state={
+	id=422
+	name="STATE_422"
+
+	history={
+		owner = QUE
+		victory_points = {
+			373 2 
+		}
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 2
+			arms_factory = 1
+			373 = {
+				naval_base = 10
+			}
+			air_base = 1
+
+		}
+		add_core_of = QUE
+	}
+
+	provinces={
+		373 
+	}
+	manpower=1091604
+	buildings_max_level_factor=1.000
+	state_category=large_town
+}

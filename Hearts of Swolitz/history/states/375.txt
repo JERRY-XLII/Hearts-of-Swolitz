@@ -1,0 +1,30 @@
+
+state={
+	id=375
+	name="STATE_375"
+	resources={
+		steel=10.000
+	}
+
+	history={
+		owner = X45
+		victory_points = {
+			11349 1 
+		}
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 0
+
+		}
+		add_core_of = X45
+	}
+
+	provinces={
+		207 248 287 354 387 3235 3313 3344 6264 6293 6367 6400 9242 9287 9386 11234 11272 11349 11353 
+	}
+	manpower=713756
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

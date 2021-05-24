@@ -1,0 +1,27 @@
+
+state={
+	id=474
+	name="STATE_474"
+
+	history={
+		owner = SOV
+		victory_points = {
+			12318 0 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 0
+
+		}
+		add_core_of = TUR
+	}
+
+	provinces={
+		9858 10399 11880 12318 
+	}
+	manpower=196064
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

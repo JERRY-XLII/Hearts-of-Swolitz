@@ -1,0 +1,30 @@
+
+state={
+	id=285
+	name="STATE_285"
+
+	history={
+		owner = JAP
+		victory_points = {
+			1269 1 
+		}
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 0
+			arms_factory = 0
+			1269 = {
+				naval_base = 10
+			}
+			air_base = 1
+
+		}
+		add_core_of = JAP
+	}
+
+	provinces={
+		1042 1085 1269 1370 4252 4292 7437 10291 10319 12265 
+	}
+	manpower=235112
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

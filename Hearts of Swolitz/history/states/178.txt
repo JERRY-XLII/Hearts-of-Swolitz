@@ -1,0 +1,33 @@
+
+state={
+	id=178
+	name="STATE_178"
+	resources={
+		aluminium=8.000
+		steel=30.000
+	}
+
+	history={
+		owner = FRA
+		victory_points = {
+			11606 10 
+		}
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 3
+			arms_factory = 2
+			air_base = 7
+
+		}
+		add_core_of = FRA
+		add_core_of = SWI
+		add_core_of = X09
+	}
+
+	provinces={
+		551 3402 3447 3506 6545 9472 9490 11549 11606 11732 13011 
+	}
+	manpower=2792372
+	buildings_max_level_factor=1.000
+	state_category=city
+}

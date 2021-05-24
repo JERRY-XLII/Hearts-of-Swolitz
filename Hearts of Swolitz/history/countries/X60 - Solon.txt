@@ -1,0 +1,91 @@
+﻿capital = 131
+set_research_slots = 2
+
+oob = "X60_OOB"
+if = {
+	limit = { has_dlc = "Man the Guns" }
+		set_naval_oob = "X60_1936_naval_mtg"
+	else = { 
+		set_naval_oob = "X60_1936_naval_legacy"
+	}
+}
+
+# Starting tech
+# Research Bonuses
+set_convoys = 0
+
+
+set_politics = {
+    ruling_party = absolutist
+    last_election = "1812.3.5"
+    election_frequency = 48
+    elections_allowed = no
+}
+
+set_popularities = {
+	absolutist = 90
+	democratic = 9
+	neutrality = 1
+}
+
+add_opinion_modifier = { target = CUB modifier = negative_10 }
+add_opinion_modifier = { target = HUN modifier = negative_10 }
+add_opinion_modifier = { target = JAP modifier = positive_5 }
+add_opinion_modifier = { target = MON modifier = negative_20 }
+add_opinion_modifier = { target = MOR modifier = negative_20 }
+add_opinion_modifier = { target = NZL modifier = positive_5 }
+add_opinion_modifier = { target = OMA modifier = negative_20 }
+add_opinion_modifier = { target = PRU modifier = negative_10 }
+add_opinion_modifier = { target = SWI modifier = negative_10 }
+add_opinion_modifier = { target = TUN modifier = negative_20 }
+add_opinion_modifier = { target = X00 modifier = negative_10 }
+add_opinion_modifier = { target = X02 modifier = negative_20 }
+add_opinion_modifier = { target = X03 modifier = negative_10 }
+add_opinion_modifier = { target = X04 modifier = negative_10 }
+add_opinion_modifier = { target = X11 modifier = negative_30 }
+add_opinion_modifier = { target = X13 modifier = negative_20 }
+add_opinion_modifier = { target = X26 modifier = positive_10 }
+add_opinion_modifier = { target = X33 modifier = negative_20 }
+add_opinion_modifier = { target = X36 modifier = negative_30 }
+add_opinion_modifier = { target = X42 modifier = negative_20 }
+add_opinion_modifier = { target = X49 modifier = negative_20 }
+add_opinion_modifier = { target = X50 modifier = negative_20 }
+add_opinion_modifier = { target = X53 modifier = negative_20 }
+add_opinion_modifier = { target = X67 modifier = negative_20 }
+add_opinion_modifier = { target = X68 modifier = negative_5 }
+add_opinion_modifier = { target = X73 modifier = negative_10 }
+add_opinion_modifier = { target = X81 modifier = negative_20 }
+add_opinion_modifier = { target = X82 modifier = negative_10 }
+add_opinion_modifier = { target = X83 modifier = negative_20 }
+add_opinion_modifier = { target = X84 modifier = negative_20 }
+add_opinion_modifier = { target = X85 modifier = negative_20 }
+add_opinion_modifier = { target = X88 modifier = negative_30 }
+add_opinion_modifier = { target = X89 modifier = negative_10 }
+add_opinion_modifier = { target = X90 modifier = negative_5 }
+add_opinion_modifier = { target = YEM modifier = negative_20 }
+
+
+
+add_ideas = {
+	uncivilized
+	volunteer_only
+	civilian_economy
+	export_focus
+	culture_manchu
+}
+create_country_leader = {
+	name = "Fu Tiemei"
+	desc = "POLITICS_FU_TIEMEI_DESC"
+	picture = "gfx/leaders/CHI/Portrait_Kung_Te-Cheng.dds"
+	expire = "1965.1.1"
+	ideology = absolute_monarchy
+	traits = {
+	}
+}
+### VARIANTS ###
+if = {
+	limit = { not = { has_dlc = "Man the Guns" } }
+}
+if = {
+	limit = { has_dlc = "Man the Guns" }
+}

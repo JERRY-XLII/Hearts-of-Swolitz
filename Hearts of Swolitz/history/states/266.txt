@@ -1,0 +1,29 @@
+
+state={
+	id=266
+	name="STATE_266"
+
+	history={
+		owner = IRE
+		victory_points = {
+			12944 0 
+		}
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 0
+			arms_factory = 0
+			12944 = {
+				naval_base = 8
+			}
+			air_base = 1
+
+		}
+	}
+
+	provinces={
+		8201 12944 
+	}
+	manpower=267756
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

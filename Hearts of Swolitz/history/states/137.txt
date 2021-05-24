@@ -1,0 +1,34 @@
+
+state={
+	id=137
+	name="STATE_137"
+	resources={
+		oil=4.000
+	}
+
+	history={
+		owner = CHI
+		victory_points = {
+			855 0 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 0
+			arms_factory = 0
+			855 = {
+				naval_base = 1
+			}
+			air_base = 0
+
+		}
+		add_core_of = X33
+		add_claim_by = CHI
+	}
+
+	provinces={
+		855 1322 1742 1755 1820 12446 
+	}
+	manpower=477664
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

@@ -1,0 +1,36 @@
+
+state={
+	id=261
+	name="STATE_261"
+	resources={
+		aluminium=10.000
+		chromium=1.000
+		tungsten=18.000
+	}
+
+	history={
+		owner = ICE
+		victory_points = {
+			9075 15 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			arms_factory = 0
+			9075 = {
+				naval_base = 8
+			}
+			air_base = 5
+
+		}
+		add_core_of = ICE
+		add_core_of = X86
+	}
+
+	provinces={
+		131 3159 3178 6046 6062 6104 6196 6205 9075 9090 11064 11161 11266 
+	}
+	manpower=401856
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

@@ -1,0 +1,28 @@
+
+state={
+	id=597
+	name="STATE_597"
+
+	history={
+		owner = X71
+		victory_points = {
+			11544 3 
+		}
+		buildings = {
+			infrastructure = 7
+			industrial_complex = 3
+			arms_factory = 2
+			air_base = 2
+
+		}
+		add_core_of = X38
+		add_core_of = X71
+	}
+
+	provinces={
+		6421 6594 9557 9572 11417 11529 11544 13116 
+	}
+	manpower=4066828
+	buildings_max_level_factor=1.000
+	state_category=large_city
+}

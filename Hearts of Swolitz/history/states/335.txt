@@ -1,0 +1,35 @@
+
+state={
+	id=335
+	name="STATE_335"
+	resources={
+		chromium=4.000
+		steel=4.000
+		tungsten=12.000
+	}
+
+	history={
+		owner = LAO
+		victory_points = {
+			10075 0 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 0
+			arms_factory = 0
+			1185 = {
+				naval_base = 2
+			}
+			air_base = 0
+
+		}
+		add_claim_by = LAO
+	}
+
+	provinces={
+		1157 1185 4119 4529 7093 9948 10075 10103 12075 12319 
+	}
+	manpower=1349156
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

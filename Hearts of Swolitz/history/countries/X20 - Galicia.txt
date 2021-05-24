@@ -1,0 +1,340 @@
+﻿capital = 203
+set_research_slots = 3
+add_named_threat = { threat = 0.3772 name = infamy }
+
+oob = "X20_OOB"
+if = {
+	limit = { has_dlc = "Man the Guns" }
+		set_naval_oob = "X20_1936_naval_mtg"
+	else = { 
+		set_naval_oob = "X20_1936_naval_legacy"
+	}
+}
+
+# Starting tech
+set_technology = {
+	early_bomber = 1
+	early_fighter = 1
+	electronic_mechanical_engineering = 1
+	fuel_refining = 1
+	fuel_silos = 1
+	gw_artillery = 1
+	gwtank = 1
+	infantry_weapons = 1
+	interwar_artillery = 1
+	motorised_infantry = 1
+	synth_oil_experiments = 1
+	tech_support = 1
+}
+
+if = {
+	limit = { has_dlc = "La Resistance" }
+	set_technology = {
+		armored_car1 = 1
+	}
+}
+
+if = {
+	limit = { has_dlc = "Man the Guns" }
+	set_technology = {
+		basic_battery = 1
+		basic_heavy_battery = 1
+		basic_light_battery = 1
+		basic_medium_battery = 1
+		basic_naval_mines = 1
+		basic_secondary_battery = 1
+		basic_torpedo = 1
+		early_ship_hull_cruiser = 1
+		early_ship_hull_light = 1
+		improved_airplane_launcher = 1
+		sonar = 1
+	}
+}
+
+if = {
+	limit = { not = { has_dlc = "Man the Guns" } }
+	set_technology = {
+		early_battleship = 1
+		early_destroyer = 1
+		early_heavy_cruiser = 1
+		early_light_cruiser = 1
+		early_submarine = 1
+		transport = 1
+	}
+}
+
+# Research Bonuses
+add_tech_bonus = { name = land_doc_bonus bonus = 1000 uses = 1 category = land_doctrine }
+add_tech_bonus = { name = naval_doc_bonus bonus = 1000 uses = 1 category = naval_doctrine }
+set_convoys = 9
+
+add_equipment_to_stockpile = { type = artillery_equipment_1 amount = 25 producer = X20 }
+add_equipment_to_stockpile = { type = gw_tank_equipment amount = 60 producer = X20 }
+add_equipment_to_stockpile = { type = infantry_equipment_0 amount = 5 producer = X20 }
+
+set_politics = {
+    ruling_party = democratic
+    last_election = "1933.9.5"
+    election_frequency = 48
+    elections_allowed = yes
+}
+
+set_popularities = {
+	absolutist = 7
+	democratic = 80
+	fascism = 8
+	neutrality = 5
+}
+
+add_opinion_modifier = { target = ADU modifier = positive_60 }
+add_opinion_modifier = { target = ALG modifier = negative_26 }
+give_military_access = ALG
+add_opinion_modifier = { target = BAY modifier = negative_92 }
+add_opinion_modifier = { target = BEL modifier = negative_15 }
+add_opinion_modifier = { target = BOS modifier = negative_135 }
+add_opinion_modifier = { target = BRA modifier = positive_200 }
+give_military_access = BRA
+add_opinion_modifier = { target = CAL modifier = negative_10 }
+add_opinion_modifier = { target = CHI modifier = negative_50 }
+add_opinion_modifier = { target = COL modifier = positive_43 }
+add_opinion_modifier = { target = CUB modifier = positive_45 }
+add_opinion_modifier = { target = CYP modifier = negative_15 }
+add_opinion_modifier = { target = FLA modifier = negative_25 }
+add_opinion_modifier = { target = FRA modifier = positive_200 }
+give_military_access = FRA
+add_opinion_modifier = { target = GEO modifier = negative_5 }
+add_opinion_modifier = { target = HUN modifier = negative_87 }
+give_military_access = HUN
+add_opinion_modifier = { target = ICE modifier = negative_105 }
+add_opinion_modifier = { target = MOR modifier = negative_29 }
+give_military_access = MOR
+add_opinion_modifier = { target = PAR modifier = positive_15 }
+add_opinion_modifier = { target = PRU modifier = negative_95 }
+add_opinion_modifier = { target = QUE modifier = positive_60 }
+add_opinion_modifier = { target = ROM modifier = positive_143 }
+add_opinion_modifier = { target = SAU modifier = negative_20 }
+add_opinion_modifier = { target = SAX modifier = negative_15 }
+add_opinion_modifier = { target = SWE modifier = negative_87 }
+add_opinion_modifier = { target = SWI modifier = negative_125 }
+add_opinion_modifier = { target = TUN modifier = negative_85 }
+add_opinion_modifier = { target = USA modifier = positive_40 }
+add_opinion_modifier = { target = X00 modifier = negative_15 }
+add_opinion_modifier = { target = X01 modifier = positive_15 }
+add_opinion_modifier = { target = X03 modifier = positive_5 }
+add_opinion_modifier = { target = X04 modifier = positive_66 }
+give_military_access = X04
+add_opinion_modifier = { target = X06 modifier = negative_20 }
+add_opinion_modifier = { target = X11 modifier = positive_5 }
+add_opinion_modifier = { target = X13 modifier = positive_30 }
+add_opinion_modifier = { target = X34 modifier = positive_13 }
+add_opinion_modifier = { target = X36 modifier = negative_10 }
+add_opinion_modifier = { target = X38 modifier = negative_30 }
+add_opinion_modifier = { target = X42 modifier = negative_100 }
+add_opinion_modifier = { target = X45 modifier = negative_100 }
+add_opinion_modifier = { target = X46 modifier = negative_115 }
+add_opinion_modifier = { target = X48 modifier = negative_5 }
+add_opinion_modifier = { target = X52 modifier = negative_5 }
+add_opinion_modifier = { target = X59 modifier = positive_200 }
+give_military_access = X59
+add_opinion_modifier = { target = X63 modifier = positive_30 }
+give_military_access = X63
+add_opinion_modifier = { target = X68 modifier = negative_10 }
+add_opinion_modifier = { target = X71 modifier = positive_60 }
+give_military_access = X71
+add_opinion_modifier = { target = X73 modifier = positive_5 }
+add_opinion_modifier = { target = X74 modifier = negative_51 }
+add_opinion_modifier = { target = X78 modifier = positive_200 }
+give_military_access = X78
+add_opinion_modifier = { target = X81 modifier = negative_200 }
+add_opinion_modifier = { target = X82 modifier = positive_115 }
+give_military_access = X82
+add_opinion_modifier = { target = X84 modifier = positive_15 }
+add_opinion_modifier = { target = X86 modifier = negative_85 }
+add_opinion_modifier = { target = X88 modifier = negative_10 }
+add_opinion_modifier = { target = X89 modifier = negative_55 }
+add_opinion_modifier = { target = YEM modifier = negative_70 }
+
+
+
+add_ideas = {
+	X20_monarch
+	volunteer_only
+	civilian_economy
+	export_focus
+	culture_czech
+}
+set_stability = 0.60
+set_war_support = 0.62
+create_country_leader = {
+	name = "Karel Jirecek"
+	desc = "POLITICS_KAREL_JIRECEK_DESC"
+	picture = "gfx/leaders/CZE/Portrait_Czech_Edvard_Benes.dds"
+	expire = "1965.1.1"
+	ideology = liberalism
+	traits = {
+	}
+}
+create_corps_commander = {
+	name = "Alexander Neruda"
+	traits = { }
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Radola Schack"
+	traits = { }
+	skill = 3
+	attack_skill = 5
+	defense_skill = 3
+	planning_skill = 1
+	logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Emanuel Breisky"
+	traits = { }
+	skill = 2
+	attack_skill = 2
+	defense_skill = 1
+	planning_skill = 2
+	logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Krtitel Rokytanský"
+	traits = { }
+	skill = 2
+	attack_skill = 2
+	defense_skill = 1
+	planning_skill = 2
+	logistics_skill = 1
+}
+
+create_navy_leader = {
+	name = "Edvard Tomášek"
+	traits = { }
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	maneuvering_skill = 1
+	coordination_skill = 2
+}
+
+### VARIANTS ###
+if = {
+	limit = { not = { has_dlc = "Man the Guns" } }
+	create_equipment_variant = {
+		name = "Early Battleship"
+		type = battleship_1
+		upgrades = {
+			ship_armor_upgrade = 1
+			ship_engine_upgrade = 1
+			ship_gun_upgrade = 1
+			ship_reliability_upgrade = 1
+		}
+	}
+
+	create_equipment_variant = {
+		name = "Early Destroyer"
+		type = destroyer_1
+		upgrades = {
+			destroyer_engine_upgrade = 1
+			ship_ASW_upgrade = 1
+			ship_anti_air_upgrade = 1
+			ship_torpedo_upgrade = 1
+		}
+	}
+
+	create_equipment_variant = {
+		name = "Early Heavy Cruiser"
+		type = heavy_cruiser_1
+		upgrades = {
+			ship_armor_upgrade = 1
+			ship_engine_upgrade = 1
+			ship_gun_upgrade = 1
+			ship_reliability_upgrade = 1
+		}
+	}
+
+	create_equipment_variant = {
+		name = "Early Light Cruiser"
+		type = light_cruiser_1
+		upgrades = {
+			ship_anti_air_upgrade = 1
+			ship_engine_upgrade = 1
+			ship_gun_upgrade = 1
+			ship_reliability_upgrade = 1
+		}
+	}
+
+	create_equipment_variant = {
+		name = "Early Submarine"
+		type = submarine_1
+		upgrades = {
+			ship_reliability_upgrade = 1
+			sub_engine_upgrade = 1
+			sub_stealth_upgrade = 1
+			sub_torpedo_upgrade = 1
+		}
+	}
+
+}
+if = {
+	limit = { has_dlc = "Man the Guns" }
+	create_equipment_variant = {
+		name = "Early Destroyer"
+		type = ship_hull_light_1
+		name_group = X20_DD_HISTORICAL
+		parent_version = 0
+		modules = {
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_battery_slot = ship_light_battery_1
+			fixed_ship_engine_slot = light_ship_engine_1
+			fixed_ship_fire_control_system_slot = empty
+			fixed_ship_radar_slot = ship_sonar_1
+			fixed_ship_torpedo_slot = ship_torpedo_1
+			mid_1_custom_slot = ship_depth_charge_1
+			rear_1_custom_slot = empty
+		}
+	}
+	create_equipment_variant = {
+		name = "Early Heavy Cruiser"
+		type = ship_hull_cruiser_1
+		name_group = X20_CA_HISTORICAL
+		parent_version = 0
+		modules = {
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_armor_slot = ship_armor_cruiser_1
+			fixed_ship_battery_slot = ship_medium_battery_1
+			fixed_ship_engine_slot = cruiser_ship_engine_1
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+			fixed_ship_radar_slot = empty
+			fixed_ship_secondaries_slot = ship_secondaries_1
+			mid_1_custom_slot = ship_secondaries_1
+			mid_2_custom_slot = ship_medium_battery_1
+			rear_1_custom_slot = empty
+		}
+	}
+	create_equipment_variant = {
+		name = "Early Light Cruiser"
+		type = ship_hull_cruiser_1
+		name_group = X20_CL_HISTORICAL
+		parent_version = 0
+		modules = {
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_armor_slot = ship_armor_cruiser_1
+			fixed_ship_battery_slot = ship_light_battery_1
+			fixed_ship_engine_slot = cruiser_ship_engine_1
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+			fixed_ship_radar_slot = ship_sonar_1
+			fixed_ship_secondaries_slot = ship_secondaries_1
+			mid_1_custom_slot = ship_torpedo_1
+			mid_2_custom_slot = ship_light_battery_1
+			rear_1_custom_slot = empty
+		}
+	}
+}

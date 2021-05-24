@@ -1,0 +1,36 @@
+
+state={
+	id=282
+	name="STATE_282"
+	resources={
+		aluminium=1.000
+		chromium=1.000
+		tungsten=0.000
+	}
+
+	history={
+		owner = JAP
+		victory_points = {
+			1611 1 
+		}
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 0
+			arms_factory = 0
+			1611 = {
+				naval_base = 10
+			}
+			air_base = 0
+
+		}
+		add_core_of = JAP
+		add_claim_by = X88
+	}
+
+	provinces={
+		1611 7450 7496 7664 10458 10500 
+	}
+	manpower=153444
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

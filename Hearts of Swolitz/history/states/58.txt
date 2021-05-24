@@ -1,0 +1,28 @@
+
+state={
+	id=58
+	name="STATE_58"
+
+	history={
+		owner = BRA
+		victory_points = {
+			2152 1 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 0
+
+		}
+		add_core_of = BRA
+		add_core_of = PAR
+	}
+
+	provinces={
+		2152 2173 2194 11023 12901 
+	}
+	manpower=520944
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

@@ -1,0 +1,35 @@
+
+state={
+	id=797
+	name="STATE_797"
+	resources={
+		oil=1.000
+	}
+
+	history={
+		owner = YEM
+		victory_points = {
+			8118 1 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 0
+			arms_factory = 0
+			4932 = {
+				naval_base = 1
+			}
+			air_base = 0
+
+		}
+		add_core_of = X44
+		add_core_of = YEM
+		add_claim_by = SAU
+	}
+
+	provinces={
+		4932 8118 12740 
+	}
+	manpower=1296
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

@@ -1,0 +1,31 @@
+
+state={
+	id=654
+	name="STATE_654"
+
+	history={
+		owner = X74
+		victory_points = {
+			13003 10 
+		}
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 1
+			arms_factory = 0
+			13003 = {
+				naval_base = 1
+			}
+			air_base = 5
+
+		}
+		add_claim_by = ICE
+		add_claim_by = X86
+	}
+
+	provinces={
+		13003 
+	}
+	manpower=55372
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

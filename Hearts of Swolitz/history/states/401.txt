@@ -1,0 +1,32 @@
+
+state={
+	id=401
+	name="STATE_401"
+	resources={
+		oil=1.000
+		steel=1.000
+		tungsten=8.000
+	}
+
+	history={
+		owner = PAR
+		victory_points = {
+			2174 1 
+		}
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 0
+
+		}
+		add_core_of = PAR
+	}
+
+	provinces={
+		2174 
+	}
+	manpower=152900
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

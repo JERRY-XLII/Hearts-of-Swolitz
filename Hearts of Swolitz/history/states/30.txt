@@ -1,0 +1,30 @@
+
+state={
+	id=30
+	name="STATE_30"
+	resources={
+		oil=0.000
+	}
+
+	history={
+		owner = X03
+		victory_points = {
+			9560 15 
+		}
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 1
+			arms_factory = 1
+			air_base = 6
+
+		}
+		add_core_of = X03
+	}
+
+	provinces={
+		3522 6487 9238 9456 9560 11359 
+	}
+	manpower=1968400
+	buildings_max_level_factor=1.000
+	state_category=town
+}

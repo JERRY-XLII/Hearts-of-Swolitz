@@ -1,0 +1,35 @@
+
+state={
+	id=206
+	name="STATE_206"
+	resources={
+		tungsten=76.000
+	}
+
+	history={
+		owner = X20
+		victory_points = {
+			11805 3 
+		}
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 2
+			arms_factory = 1
+			dockyard = 1
+			799 = {
+				naval_base = 10
+			}
+			air_base = 1
+
+		}
+		add_core_of = ADU
+		add_core_of = X20
+	}
+
+	provinces={
+		799 844 924 970 3798 3861 6924 11768 11805 
+	}
+	manpower=2460660
+	buildings_max_level_factor=1.000
+	state_category=large_town
+}

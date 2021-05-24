@@ -1,0 +1,30 @@
+
+state={
+	id=338
+	name="STATE_338"
+	resources={
+		aluminium=1.000
+	}
+
+	history={
+		owner = X38
+		victory_points = {
+			6555 1 
+		}
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 1
+			arms_factory = 0
+			air_base = 1
+
+		}
+		add_core_of = X38
+	}
+
+	provinces={
+		6555 9545 
+	}
+	manpower=1532032
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

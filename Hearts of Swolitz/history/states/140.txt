@@ -1,0 +1,30 @@
+
+state={
+	id=140
+	name="STATE_140"
+
+	history={
+		owner = COL
+		victory_points = {
+			12715 10 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			arms_factory = 0
+			4965 = {
+				naval_base = 10
+			}
+			air_base = 5
+
+		}
+		add_core_of = X91
+	}
+
+	provinces={
+		4965 12715 
+	}
+	manpower=542320
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

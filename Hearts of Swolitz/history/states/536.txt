@@ -1,0 +1,33 @@
+
+state={
+	id=536
+	name="STATE_536"
+	resources={
+		steel=2.000
+		tungsten=2.000
+	}
+
+	history={
+		owner = SWE
+		victory_points = {
+			11157 0 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 0
+			arms_factory = 0
+			22 = {
+				naval_base = 1
+			}
+			air_base = 0
+
+		}
+	}
+
+	provinces={
+		22 44 11090 11157 
+	}
+	manpower=17708
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}
