@@ -1,0 +1,36 @@
+
+state={
+	id=616
+	name="STATE_616"
+	resources={
+		aluminium=4.000
+		steel=12.000
+	}
+
+	history={
+		owner = X74
+		victory_points = {
+			9263 7 
+		}
+		buildings = {
+			infrastructure = 9
+			industrial_complex = 6
+			arms_factory = 3
+			dockyard = 3
+			9263 = {
+				naval_base = 1
+			}
+			air_base = 3
+
+		}
+		add_core_of = X52
+		add_core_of = X74
+	}
+
+	provinces={
+		17 243 279 334 388 389 3324 3381 3460 3532 6558 9252 9263 9532 11232 11260 11288 11558 
+	}
+	manpower=6956868
+	buildings_max_level_factor=1.000
+	state_category=megalopolis
+}

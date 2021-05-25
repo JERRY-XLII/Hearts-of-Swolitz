@@ -1,0 +1,31 @@
+
+state={
+	id=88
+	name="STATE_88"
+
+	history={
+		owner = CHI
+		victory_points = {
+			7878 1 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 0
+			arms_factory = 0
+			dockyard = 1
+			7878 = {
+				naval_base = 6
+			}
+			air_base = 0
+
+		}
+		add_core_of = CHI
+	}
+
+	provinces={
+		4728 7878 12207 12522 
+	}
+	manpower=408694
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

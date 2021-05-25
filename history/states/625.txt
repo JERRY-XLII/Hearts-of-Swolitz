@@ -1,0 +1,31 @@
+
+state={
+	id=625
+	name="STATE_625"
+	resources={
+		aluminium=9.000
+		oil=11.000
+	}
+
+	history={
+		owner = X74
+		victory_points = {
+			525 0 
+		}
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 1
+
+		}
+		add_core_of = X32
+	}
+
+	provinces={
+		238 489 504 522 525 546 582 3225 3480 3494 3542 3543 3568 6458 6508 6532 6565 6589 9477 9506 9543 9566 11489 11553 11557 
+	}
+	manpower=1475016
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

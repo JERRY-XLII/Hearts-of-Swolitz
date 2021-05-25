@@ -1,0 +1,31 @@
+
+state={
+	id=204
+	name="STATE_204"
+	resources={
+		tungsten=33.000
+	}
+
+	history={
+		owner = X20
+		victory_points = {
+			11851 3 
+		}
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 3
+			arms_factory = 1
+			air_base = 1
+
+		}
+		add_core_of = ADU
+		add_core_of = X20
+	}
+
+	provinces={
+		809 931 985 3930 6866 6902 6948 6954 9839 9877 9917 9925 11780 11798 11851 13230 
+	}
+	manpower=1380376
+	buildings_max_level_factor=1.000
+	state_category=city
+}

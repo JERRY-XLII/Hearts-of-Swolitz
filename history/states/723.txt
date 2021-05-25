@@ -1,0 +1,28 @@
+
+state={
+	id=723
+	name="STATE_723"
+
+	history={
+		owner = X80
+		victory_points = {
+			10887 1 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 0
+
+		}
+		add_core_of = X80
+		add_claim_by = RAJ
+	}
+
+	provinces={
+		1129 2076 4979 7106 8022 8106 10173 10887 12005 12708 
+	}
+	manpower=1326528
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

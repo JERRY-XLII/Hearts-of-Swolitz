@@ -1,0 +1,30 @@
+
+state={
+	id=657
+	name="STATE_657"
+	resources={
+		chromium=168.000
+	}
+
+	history={
+		owner = X74
+		victory_points = {
+			8214 1 
+		}
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 1
+			arms_factory = 0
+			air_base = 1
+
+		}
+		add_core_of = X74
+	}
+
+	provinces={
+		1580 8214 10525 12940 12963 
+	}
+	manpower=527892
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

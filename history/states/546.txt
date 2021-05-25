@@ -1,0 +1,32 @@
+
+state={
+	id=546
+	name="STATE_546"
+	resources={
+		steel=29.000
+	}
+
+	history={
+		owner = SWE
+		victory_points = {
+			9248 0 
+		}
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 0
+			arms_factory = 0
+			9248 = {
+				naval_base = 8
+			}
+			air_base = 0
+
+		}
+	}
+
+	provinces={
+		26 140 3080 3086 3092 3130 6051 6102 9055 9248 11038 11137 
+	}
+	manpower=86452
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

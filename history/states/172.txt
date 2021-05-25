@@ -1,0 +1,26 @@
+
+state={
+	id=172
+	name="STATE_172"
+
+	history={
+		owner = FLA
+		victory_points = {
+			10595 0 
+		}
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 1
+
+		}
+	}
+
+	provinces={
+		4880 7862 10569 10595 12620 12667 
+	}
+	manpower=192948
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

@@ -1,0 +1,27 @@
+
+state={
+	id=615
+	name="STATE_615"
+
+	history={
+		owner = X74
+		victory_points = {
+			6375 2 
+		}
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 2
+			arms_factory = 1
+			air_base = 1
+
+		}
+		add_core_of = X74
+	}
+
+	provinces={
+		266 3351 6347 6375 9327 9346 9372 9398 11245 11386 
+	}
+	manpower=1235580
+	buildings_max_level_factor=1.000
+	state_category=large_town
+}

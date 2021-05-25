@@ -1,0 +1,33 @@
+
+state={
+	id=504
+	name="STATE_504"
+	resources={
+		aluminium=9.000
+	}
+
+	history={
+		owner = X59
+		victory_points = {
+			6606 2 
+		}
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 2
+			arms_factory = 0
+			782 = {
+				naval_base = 10
+			}
+			air_base = 1
+
+		}
+		add_core_of = X59
+	}
+
+	provinces={
+		782 6606 6793 6985 9924 11734 
+	}
+	manpower=1251612
+	buildings_max_level_factor=1.000
+	state_category=town
+}

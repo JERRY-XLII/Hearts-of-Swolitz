@@ -1,0 +1,35 @@
+
+state={
+	id=634
+	name="STATE_634"
+	resources={
+		aluminium=3.000
+		rubber=1.000
+		steel=0.000
+	}
+
+	history={
+		owner = X74
+		victory_points = {
+			10803 0 
+		}
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 0
+			arms_factory = 0
+			10803 = {
+				naval_base = 2
+			}
+			air_base = 0
+
+		}
+		add_claim_by = X05
+	}
+
+	provinces={
+		5013 8065 10803 
+	}
+	manpower=760440
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

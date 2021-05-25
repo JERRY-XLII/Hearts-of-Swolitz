@@ -1,0 +1,33 @@
+
+state={
+	id=787
+	name="STATE_787"
+	resources={
+		steel=16.000
+	}
+
+	history={
+		owner = X88
+		victory_points = {
+			12604 1 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 0
+			arms_factory = 0
+			1801 = {
+				naval_base = 2
+			}
+			air_base = 0
+
+		}
+		add_core_of = X88
+	}
+
+	provinces={
+		1565 1713 1746 1786 1801 1814 4718 4748 4804 7692 7742 7783 7826 7887 10609 10710 12362 12604 12617 12664 
+	}
+	manpower=51188
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

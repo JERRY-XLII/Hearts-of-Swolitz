@@ -1,0 +1,31 @@
+
+state={
+	id=690
+	name="STATE_690"
+	resources={
+		aluminium=2.000
+		rubber=2.000
+		steel=2.000
+	}
+
+	history={
+		owner = X78
+		victory_points = {
+			12817 0 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 0
+
+		}
+	}
+
+	provinces={
+		1891 1932 12817 
+	}
+	manpower=2997548
+	buildings_max_level_factor=1.000
+	state_category=city
+}

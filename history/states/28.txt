@@ -1,0 +1,32 @@
+
+state={
+	id=28
+	name="STATE_28"
+	resources={
+		chromium=9.000
+	}
+
+	history={
+		owner = X02
+		victory_points = {
+			2200 0 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 0
+			arms_factory = 0
+			8246 = {
+				naval_base = 2
+			}
+			air_base = 0
+
+		}
+	}
+
+	provinces={
+		2200 5185 8180 8246 11015 12956 
+	}
+	manpower=448824
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

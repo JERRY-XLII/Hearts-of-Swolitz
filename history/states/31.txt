@@ -1,0 +1,33 @@
+
+state={
+	id=31
+	name="STATE_31"
+	resources={
+		chromium=0.000
+		steel=18.000
+		tungsten=0.000
+	}
+
+	history={
+		owner = X03
+		victory_points = {
+			3535 1 
+		}
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 1
+			arms_factory = 0
+			air_base = 1
+
+		}
+		add_core_of = X03
+		add_claim_by = SAX
+	}
+
+	provinces={
+		3535 9497 11481 
+	}
+	manpower=2530156
+	buildings_max_level_factor=1.000
+	state_category=large_town
+}

@@ -1,0 +1,35 @@
+
+state={
+	id=488
+	name="STATE_488"
+	resources={
+		oil=16.000
+		rubber=242.000
+		steel=4.000
+	}
+
+	history={
+		owner = X56
+		victory_points = {
+			7381 1 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 0
+			arms_factory = 0
+			1398 = {
+				naval_base = 4
+			}
+			air_base = 0
+
+		}
+		add_core_of = X56
+	}
+
+	provinces={
+		1209 1386 1398 1413 1425 4306 4390 4406 4434 4608 4621 7223 7381 7421 7642 7654 10135 10279 10307 10479 10491 12249 12277 12293 12472 
+	}
+	manpower=4401448
+	buildings_max_level_factor=1.000
+	state_category=large_city
+}

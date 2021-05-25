@@ -1,0 +1,31 @@
+
+state={
+	id=650
+	name="STATE_650"
+
+	history={
+		owner = X74
+		victory_points = {
+			13016 2 
+		}
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 0
+			arms_factory = 1
+			dockyard = 1
+			13016 = {
+				naval_base = 4
+			}
+			air_base = 1
+
+		}
+		add_core_of = X74
+	}
+
+	provinces={
+		13013 13016 
+	}
+	manpower=795772
+	buildings_max_level_factor=1.000
+	state_category=town
+}

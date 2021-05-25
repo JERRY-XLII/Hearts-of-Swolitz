@@ -1,0 +1,31 @@
+
+state={
+	id=356
+	name="STATE_356"
+	resources={
+		aluminium=35.000
+		chromium=3.000
+		steel=35.000
+	}
+
+	history={
+		owner = MON
+		victory_points = {
+			4797 0 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 0
+
+		}
+	}
+
+	provinces={
+		1707 1727 1735 1792 1803 1810 1829 4703 4716 4737 4750 4782 4797 4808 4815 4835 7769 7802 7828 7838 7841 7863 7876 7902 10524 10543 10549 10570 10596 10628 10654 10661 10664 10699 12506 12523 12525 12540 12575 12647 12681 
+	}
+	manpower=328140
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

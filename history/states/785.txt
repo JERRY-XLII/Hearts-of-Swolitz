@@ -1,0 +1,35 @@
+
+state={
+	id=785
+	name="STATE_785"
+	resources={
+		chromium=1.000
+		oil=1.000
+		steel=1.000
+	}
+
+	history={
+		owner = X88
+		victory_points = {
+			12910 1 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 0
+			arms_factory = 0
+			12910 = {
+				naval_base = 2
+			}
+			air_base = 0
+
+		}
+		add_core_of = X88
+	}
+
+	provinces={
+		1773 2205 2219 5138 5183 5197 5211 5225 7567 7623 8165 8186 8206 8220 10925 10927 12906 12910 12918 12924 
+	}
+	manpower=52544
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

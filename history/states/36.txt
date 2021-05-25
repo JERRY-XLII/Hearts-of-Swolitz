@@ -1,0 +1,28 @@
+
+state={
+	id=36
+	name="STATE_36"
+
+	history={
+		owner = BAY
+		victory_points = {
+			11404 5 
+		}
+		buildings = {
+			infrastructure = 8
+			industrial_complex = 5
+			arms_factory = 3
+			air_base = 3
+
+		}
+		add_core_of = BAY
+		add_core_of = X38
+	}
+
+	provinces={
+		586 3474 9416 11404 
+	}
+	manpower=2716304
+	buildings_max_level_factor=1.000
+	state_category=metropolis
+}

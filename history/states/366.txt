@@ -1,0 +1,31 @@
+
+state={
+	id=366
+	name="STATE_366"
+
+	history={
+		owner = MOR
+		victory_points = {
+			1751 1 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 0
+			arms_factory = 0
+			1751 = {
+				naval_base = 1
+			}
+			air_base = 0
+
+		}
+		add_core_of = MOR
+		add_core_of = X65
+	}
+
+	provinces={
+		1751 
+	}
+	manpower=126452
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

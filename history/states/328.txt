@@ -1,0 +1,33 @@
+
+state={
+	id=328
+	name="STATE_328"
+	resources={
+		oil=47.000
+	}
+
+	history={
+		owner = X35
+		victory_points = {
+			7552 15 
+		}
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 1
+			arms_factory = 0
+			7552 = {
+				naval_base = 8
+			}
+			air_base = 6
+
+		}
+		add_core_of = X35
+	}
+
+	provinces={
+		1453 1559 4522 4535 7524 7552 7555 7599 12398 12401 
+	}
+	manpower=426992
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

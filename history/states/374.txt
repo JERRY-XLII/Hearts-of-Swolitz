@@ -1,0 +1,30 @@
+
+state={
+	id=374
+	name="STATE_374"
+
+	history={
+		owner = X45
+		victory_points = {
+			9098 1 
+		}
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 0
+			arms_factory = 0
+			11186 = {
+				naval_base = 4
+			}
+			air_base = 0
+
+		}
+		add_core_of = X45
+	}
+
+	provinces={
+		95 104 126 181 415 3053 3120 3310 3333 6139 6242 6324 9098 9120 9254 9353 9408 11032 11080 11097 11139 11186 11202 11259 11392 
+	}
+	manpower=598276
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

@@ -1,0 +1,33 @@
+
+state={
+	id=132
+	name="STATE_132"
+	resources={
+		chromium=7.000
+		steel=12.000
+	}
+
+	history={
+		owner = CHI
+		victory_points = {
+			4677 2 
+		}
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 1
+			arms_factory = 1
+			air_base = 0
+
+		}
+		add_core_of = CHI
+		add_claim_by = X33
+		add_claim_by = X60
+	}
+
+	provinces={
+		1730 1739 1805 1807 1826 1845 4677 4719 4731 4752 4821 4847 4881 7725 7772 7786 7844 7854 10559 10590 10608 10643 10667 10678 12591 12622 12641 12650 12694 
+	}
+	manpower=1369896
+	buildings_max_level_factor=1.000
+	state_category=town
+}

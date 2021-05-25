@@ -1,0 +1,31 @@
+
+state={
+	id=543
+	name="STATE_543"
+
+	history={
+		owner = SWE
+		victory_points = {
+			9228 3 
+		}
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 2
+			arms_factory = 1
+			dockyard = 1
+			9228 = {
+				naval_base = 10
+			}
+			air_base = 1
+
+		}
+		add_core_of = SWE
+	}
+
+	provinces={
+		9228 
+	}
+	manpower=50180
+	buildings_max_level_factor=1.000
+	state_category=city
+}

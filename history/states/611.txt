@@ -1,0 +1,32 @@
+
+state={
+	id=611
+	name="STATE_611"
+	resources={
+		steel=58.000
+	}
+
+	history={
+		owner = X74
+		victory_points = {
+			514 4 
+		}
+		buildings = {
+			infrastructure = 8
+			industrial_complex = 5
+			arms_factory = 2
+			air_base = 2
+
+		}
+		add_core_of = HRE
+		add_core_of = X74
+		add_claim_by = SAX
+	}
+
+	provinces={
+		514 573 3514 6559 9441 9471 9535 
+	}
+	manpower=4571416
+	buildings_max_level_factor=1.000
+	state_category=large_city
+}

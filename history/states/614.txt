@@ -1,0 +1,32 @@
+
+state={
+	id=614
+	name="STATE_614"
+	resources={
+		aluminium=58.000
+		oil=1.000
+		steel=175.000
+	}
+
+	history={
+		owner = X74
+		victory_points = {
+			9570 6 
+		}
+		buildings = {
+			infrastructure = 8
+			industrial_complex = 7
+			arms_factory = 3
+			air_base = 3
+
+		}
+		add_core_of = X74
+	}
+
+	provinces={
+		479 506 552 3283 3438 3485 3510 3545 6462 6464 6512 6534 6595 9457 9470 9511 9570 11467 11517 13205 
+	}
+	manpower=8602512
+	buildings_max_level_factor=1.000
+	state_category=megalopolis
+}

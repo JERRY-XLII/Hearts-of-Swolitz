@@ -1,0 +1,21 @@
+
+state={
+	id=530
+	name="STATE_530"
+	impassable = yes
+
+	history={
+		owner = X59
+		add_core_of = X59
+		add_claim_by = ALG
+		add_claim_by = TUN
+		add_claim_by = X65
+	}
+
+	provinces={
+		5035 8077 
+	}
+	manpower=131952
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+}

@@ -1,0 +1,35 @@
+
+state={
+	id=156
+	name="STATE_156"
+	resources={
+		steel=7.000
+		tungsten=3.000
+	}
+
+	history={
+		owner = X13
+		victory_points = {
+			2051 15 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			arms_factory = 0
+			2051 = {
+				naval_base = 1
+			}
+			air_base = 5
+
+		}
+		add_core_of = X13
+		add_claim_by = X59
+	}
+
+	provinces={
+		2051 13089 
+	}
+	manpower=713544
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

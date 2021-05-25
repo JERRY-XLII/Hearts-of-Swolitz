@@ -1,0 +1,28 @@
+
+state={
+	id=702
+	name="STATE_702"
+
+	history={
+		owner = X79
+		victory_points = {
+			6935 10 
+		}
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 1
+			arms_factory = 0
+			air_base = 5
+
+		}
+		add_core_of = X43
+		add_claim_by = TUR
+	}
+
+	provinces={
+		864 1463 4583 6935 7470 7530 12376 12476 
+	}
+	manpower=675920
+	buildings_max_level_factor=1.000
+	state_category=town
+}

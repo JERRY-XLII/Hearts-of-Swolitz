@@ -1,0 +1,30 @@
+
+state={
+	id=620
+	name="STATE_620"
+	resources={
+		steel=20.000
+	}
+
+	history={
+		owner = X74
+		victory_points = {
+			493 3 
+		}
+		buildings = {
+			infrastructure = 7
+			industrial_complex = 3
+			arms_factory = 2
+			air_base = 2
+
+		}
+		add_core_of = X74
+	}
+
+	provinces={
+		493 548 562 584 3458 3482 3497 3586 6401 6416 9439 9508 9546 11428 11430 11515 11532 
+	}
+	manpower=3669812
+	buildings_max_level_factor=1.000
+	state_category=city
+}

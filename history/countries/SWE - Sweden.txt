@@ -1,0 +1,354 @@
+﻿capital = 538
+set_research_slots = 3
+
+oob = "SWE_OOB"
+if = {
+	limit = { has_dlc = "Man the Guns" }
+		set_naval_oob = "SWE_1936_naval_mtg"
+	else = { 
+		set_naval_oob = "SWE_1936_naval_legacy"
+	}
+}
+
+# Starting tech
+set_technology = {
+	early_bomber = 1
+	early_fighter = 1
+	electronic_mechanical_engineering = 1
+	fuel_refining = 1
+	fuel_silos = 1
+	gw_artillery = 1
+	infantry_weapons = 1
+	synth_oil_experiments = 1
+	tech_support = 1
+}
+
+if = {
+	limit = { has_dlc = "Man the Guns" }
+	set_technology = {
+		basic_battery = 1
+		basic_cruiser_armor_scheme = 1
+		basic_depth_charges = 1
+		basic_heavy_armor_scheme = 1
+		basic_naval_mines = 1
+		basic_ship_hull_cruiser = 1
+		basic_ship_hull_heavy = 1
+		basic_ship_hull_light = 1
+		basic_ship_hull_submarine = 1
+		basic_torpedo = 1
+		early_ship_hull_cruiser = 1
+		early_ship_hull_heavy = 1
+		early_ship_hull_light = 1
+		early_ship_hull_submarine = 1
+		submarine_mine_laying = 1
+	}
+}
+
+if = {
+	limit = { not = { has_dlc = "Man the Guns" } }
+	set_technology = {
+		basic_battleship = 1
+		basic_destroyer = 1
+		basic_heavy_cruiser = 1
+		basic_light_cruiser = 1
+		early_battleship = 1
+		early_destroyer = 1
+		early_heavy_cruiser = 1
+		early_light_cruiser = 1
+		early_submarine = 1
+		transport = 1
+	}
+}
+
+# Research Bonuses
+add_tech_bonus = { name = land_doc_bonus bonus = 1000 uses = 1 category = land_doctrine }
+set_convoys = 9
+
+add_equipment_to_stockpile = { type = artillery_equipment_1 amount = 1 producer = SWE }
+add_equipment_to_stockpile = { type = infantry_equipment_0 amount = 1 producer = SWE }
+
+set_politics = {
+    ruling_party = democratic
+    last_election = "1932.10.14"
+    election_frequency = 48
+    elections_allowed = yes
+}
+
+set_popularities = {
+	absolutist = 6
+	democratic = 75
+	fascism = 11
+	neutrality = 8
+}
+
+add_opinion_modifier = { target = ADU modifier = negative_110 }
+add_opinion_modifier = { target = BAY modifier = positive_35 }
+give_military_access = BAY
+add_opinion_modifier = { target = BEL modifier = negative_80 }
+add_opinion_modifier = { target = BOS modifier = negative_200 }
+add_opinion_modifier = { target = BRA modifier = positive_23 }
+add_opinion_modifier = { target = CAL modifier = negative_10 }
+add_opinion_modifier = { target = CHI modifier = positive_105 }
+add_opinion_modifier = { target = COL modifier = negative_15 }
+add_opinion_modifier = { target = CUB modifier = negative_15 }
+add_opinion_modifier = { target = CYP modifier = positive_5 }
+add_opinion_modifier = { target = FLA modifier = positive_8 }
+add_opinion_modifier = { target = FRA modifier = negative_200 }
+add_opinion_modifier = { target = GEO modifier = positive_13 }
+add_opinion_modifier = { target = HOL modifier = negative_115 }
+add_opinion_modifier = { target = HUN modifier = positive_18 }
+give_military_access = HUN
+add_opinion_modifier = { target = ICE modifier = negative_145 }
+add_opinion_modifier = { target = IRE modifier = negative_49 }
+add_opinion_modifier = { target = MEX modifier = negative_15 }
+add_opinion_modifier = { target = PAR modifier = positive_10 }
+add_opinion_modifier = { target = PRU modifier = negative_100 }
+add_opinion_modifier = { target = QUE modifier = negative_94 }
+add_opinion_modifier = { target = RAJ modifier = positive_51 }
+give_military_access = RAJ
+add_opinion_modifier = { target = ROM modifier = negative_51 }
+add_opinion_modifier = { target = SAX modifier = positive_20 }
+add_opinion_modifier = { target = SIA modifier = negative_10 }
+add_opinion_modifier = { target = SOV modifier = negative_93 }
+add_opinion_modifier = { target = SWI modifier = negative_97 }
+add_opinion_modifier = { target = TUN modifier = negative_70 }
+add_opinion_modifier = { target = TUR modifier = positive_30 }
+give_military_access = TUR
+add_opinion_modifier = { target = X00 modifier = negative_99 }
+add_opinion_modifier = { target = X01 modifier = positive_15 }
+add_opinion_modifier = { target = X03 modifier = negative_10 }
+add_opinion_modifier = { target = X04 modifier = positive_95 }
+add_opinion_modifier = { target = X11 modifier = positive_18 }
+add_opinion_modifier = { target = X13 modifier = positive_15 }
+add_opinion_modifier = { target = X20 modifier = negative_87 }
+add_opinion_modifier = { target = X30 modifier = negative_20 }
+add_opinion_modifier = { target = X34 modifier = negative_105 }
+add_opinion_modifier = { target = X35 modifier = negative_94 }
+add_opinion_modifier = { target = X36 modifier = negative_10 }
+add_opinion_modifier = { target = X38 modifier = negative_105 }
+add_opinion_modifier = { target = X45 modifier = negative_188 }
+add_opinion_modifier = { target = X46 modifier = positive_200 }
+add_opinion_modifier = { target = X48 modifier = negative_70 }
+add_opinion_modifier = { target = X52 modifier = negative_70 }
+add_opinion_modifier = { target = X59 modifier = positive_146 }
+give_military_access = X59
+add_opinion_modifier = { target = X62 modifier = negative_150 }
+add_opinion_modifier = { target = X63 modifier = negative_100 }
+add_opinion_modifier = { target = X68 modifier = negative_10 }
+add_opinion_modifier = { target = X70 modifier = negative_100 }
+add_opinion_modifier = { target = X73 modifier = negative_15 }
+add_opinion_modifier = { target = X74 modifier = positive_126 }
+add_opinion_modifier = { target = X78 modifier = negative_134 }
+add_opinion_modifier = { target = X79 modifier = positive_115 }
+add_opinion_modifier = { target = X81 modifier = negative_200 }
+add_opinion_modifier = { target = X82 modifier = positive_199 }
+add_opinion_modifier = { target = X84 modifier = positive_15 }
+add_opinion_modifier = { target = X86 modifier = negative_20 }
+add_opinion_modifier = { target = X88 modifier = negative_10 }
+add_opinion_modifier = { target = X89 modifier = negative_15 }
+add_opinion_modifier = { target = YEM modifier = positive_15 }
+
+
+
+add_ideas = {
+	SWE_monarch
+	disarmed_nation
+	civilian_economy
+	export_focus
+	culture_swedish
+}
+set_stability = 0.60
+set_war_support = 0.60
+create_country_leader = {
+	name = "Henrik Tingsten"
+	desc = "POLITICS_HENRIK_TINGSTEN_DESC"
+	picture = "gfx/leaders/SWE/Portrait_Sweden_Per_Albin_Hansson.dds"
+	expire = "1965.1.1"
+	ideology = socialism
+	traits = {
+	}
+}
+create_corps_commander = {
+	name = "Theodor Platen"
+	traits = { }
+	skill = 1
+	attack_skill = 1
+	defense_skill = 2
+	planning_skill = 1
+	logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Frans Ström"
+	traits = { }
+	skill = 1
+	attack_skill = 2
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Magnus Otter"
+	traits = { }
+	skill = 2
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 5
+}
+
+create_navy_leader = {
+	name = "Viktor Leijonhufvud"
+	traits = { }
+	skill = 2
+	attack_skill = 2
+	defense_skill = 1
+	maneuvering_skill = 3
+	coordination_skill = 1
+}
+
+### VARIANTS ###
+if = {
+	limit = { not = { has_dlc = "Man the Guns" } }
+	create_equipment_variant = {
+		name = "1936 Battleship"
+		type = battleship_2
+		upgrades = {
+			ship_armor_upgrade = 1
+			ship_engine_upgrade = 1
+			ship_gun_upgrade = 1
+			ship_reliability_upgrade = 1
+		}
+	}
+
+	create_equipment_variant = {
+		name = "1936 Destroyer"
+		type = destroyer_2
+		upgrades = {
+			destroyer_engine_upgrade = 1
+			ship_ASW_upgrade = 1
+			ship_anti_air_upgrade = 1
+			ship_torpedo_upgrade = 1
+		}
+	}
+
+	create_equipment_variant = {
+		name = "1936 Heavy Cruiser"
+		type = heavy_cruiser_2
+		upgrades = {
+			ship_armor_upgrade = 1
+			ship_engine_upgrade = 1
+			ship_gun_upgrade = 1
+			ship_reliability_upgrade = 1
+		}
+	}
+
+	create_equipment_variant = {
+		name = "1936 Light Cruiser"
+		type = light_cruiser_2
+		upgrades = {
+			ship_anti_air_upgrade = 1
+			ship_engine_upgrade = 1
+			ship_gun_upgrade = 1
+			ship_reliability_upgrade = 1
+		}
+	}
+
+	create_equipment_variant = {
+		name = "Early Submarine"
+		type = submarine_1
+		upgrades = {
+			ship_reliability_upgrade = 1
+			sub_engine_upgrade = 1
+			sub_stealth_upgrade = 1
+			sub_torpedo_upgrade = 1
+		}
+	}
+
+}
+if = {
+	limit = { has_dlc = "Man the Guns" }
+	create_equipment_variant = {
+		name = "1936 Battleship"
+		type = ship_hull_heavy_2
+		name_group = SWE_BB_HISTORICAL
+		parent_version = 0
+		modules = {
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_armor_slot = ship_armor_bb_2
+			fixed_ship_battery_slot = ship_heavy_battery_2
+			fixed_ship_engine_slot = heavy_ship_engine_2
+			fixed_ship_fire_control_system_slot = empty
+			fixed_ship_radar_slot = empty
+			fixed_ship_secondaries_slot = ship_secondaries_2
+			front_1_custom_slot = ship_heavy_battery_2
+			mid_1_custom_slot = empty
+			mid_2_custom_slot = ship_heavy_battery_2
+			rear_1_custom_slot = empty
+		}
+	}
+	create_equipment_variant = {
+		name = "1936 Destroyer"
+		type = ship_hull_light_2
+		name_group = SWE_DD_HISTORICAL
+		parent_version = 0
+		modules = {
+			fixed_ship_anti_air_slot = ship_anti_air_2
+			fixed_ship_battery_slot = ship_light_battery_2
+			fixed_ship_engine_slot = light_ship_engine_2
+			fixed_ship_fire_control_system_slot = empty
+			fixed_ship_radar_slot = ship_sonar_1
+			fixed_ship_torpedo_slot = ship_torpedo_1
+			mid_1_custom_slot = ship_depth_charge_1
+			rear_1_custom_slot = empty
+		}
+	}
+	create_equipment_variant = {
+		name = "1936 Heavy Cruiser"
+		type = ship_hull_cruiser_2
+		name_group = SWE_CA_HISTORICAL
+		parent_version = 0
+		modules = {
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_armor_slot = ship_armor_cruiser_2
+			fixed_ship_battery_slot = ship_medium_battery_2
+			fixed_ship_engine_slot = cruiser_ship_engine_2
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+			fixed_ship_radar_slot = empty
+			fixed_ship_secondaries_slot = ship_secondaries_2
+			mid_1_custom_slot = ship_secondaries_2
+			mid_2_custom_slot = ship_medium_battery_2
+			rear_1_custom_slot = empty
+		}
+	}
+	create_equipment_variant = {
+		name = "1936 Light Cruiser"
+		type = ship_hull_cruiser_2
+		name_group = SWE_CL_HISTORICAL
+		parent_version = 0
+		modules = {
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_armor_slot = ship_armor_cruiser_2
+			fixed_ship_battery_slot = ship_light_battery_2
+			fixed_ship_engine_slot = cruiser_ship_engine_2
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+			fixed_ship_radar_slot = ship_sonar_1
+			fixed_ship_secondaries_slot = ship_secondaries_2
+			mid_1_custom_slot = ship_torpedo_1
+			mid_2_custom_slot = ship_light_battery_2
+			rear_1_custom_slot = empty
+		}
+	}
+	create_equipment_variant = {
+		name = "1936 Submarine"
+		type = ship_hull_submarine_2
+		name_group = SWE_SS_HISTORICAL
+		parent_version = 0
+		modules = {
+			fixed_ship_engine_slot = sub_ship_engine_2
+			fixed_ship_torpedo_slot = ship_torpedo_sub_2
+			rear_1_custom_slot = ship_torpedo_sub_2
+		}
+	}
+}

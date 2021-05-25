@@ -1,0 +1,30 @@
+
+state={
+	id=383
+	name="STATE_383"
+
+	history={
+		owner = NZL
+		victory_points = {
+			1280 15 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			arms_factory = 0
+			1280 = {
+				naval_base = 1
+			}
+			air_base = 5
+
+		}
+		add_core_of = NZL
+	}
+
+	provinces={
+		1280 
+	}
+	manpower=3512
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

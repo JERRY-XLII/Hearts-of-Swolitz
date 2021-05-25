@@ -1,0 +1,31 @@
+
+state={
+	id=542
+	name="STATE_542"
+
+	history={
+		owner = SWE
+		victory_points = {
+			11105 3 
+		}
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 2
+			arms_factory = 1
+			dockyard = 1
+			66 = {
+				naval_base = 1
+			}
+			air_base = 1
+
+		}
+		add_core_of = SWE
+	}
+
+	provinces={
+		32 63 66 67 169 204 3009 3025 3061 3083 3117 3119 3122 3137 3161 3172 6009 6013 6047 6066 6082 6108 6138 6141 6144 6163 6186 6198 9038 9094 9129 9156 9160 9166 9167 9183 9194 9219 11033 11056 11065 11066 11105 11126 11144 11172 11211 
+	}
+	manpower=1900904
+	buildings_max_level_factor=1.000
+	state_category=city
+}

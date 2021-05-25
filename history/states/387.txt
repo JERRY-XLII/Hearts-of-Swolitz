@@ -1,0 +1,33 @@
+
+state={
+	id=387
+	name="STATE_387"
+
+	history={
+		owner = X48
+		victory_points = {
+			309 15 
+		}
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 1
+			arms_factory = 0
+			11360 = {
+				naval_base = 1
+			}
+			air_base = 6
+
+		}
+		add_core_of = HRE
+		add_core_of = X48
+		add_core_of = X71
+		add_claim_by = HOL
+	}
+
+	provinces={
+		309 3234 9281 11233 11264 11360 
+	}
+	manpower=646412
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

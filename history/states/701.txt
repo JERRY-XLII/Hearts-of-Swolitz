@@ -1,0 +1,27 @@
+
+state={
+	id=701
+	name="STATE_701"
+
+	history={
+		owner = X79
+		victory_points = {
+			10472 0 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 0
+
+		}
+		add_core_of = X43
+	}
+
+	provinces={
+		10472 
+	}
+	manpower=557060
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

@@ -1,0 +1,27 @@
+
+state={
+	id=735
+	name="STATE_735"
+
+	history={
+		owner = X82
+		victory_points = {
+			4440 1 
+		}
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 1
+
+		}
+		add_core_of = X82
+	}
+
+	provinces={
+		1544 4440 7001 7170 
+	}
+	manpower=305008
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

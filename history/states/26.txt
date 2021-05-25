@@ -1,0 +1,33 @@
+
+state={
+	id=26
+	name="STATE_26"
+	resources={
+		aluminium=14.000
+		chromium=2.000
+	}
+
+	history={
+		owner = X02
+		victory_points = {
+			1652 0 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 0
+			arms_factory = 0
+			1652 = {
+				naval_base = 4
+			}
+			air_base = 0
+
+		}
+	}
+
+	provinces={
+		1526 1652 2157 2191 5175 7453 8130 8200 8228 8243 10969 10997 11011 12948 12962 12976 12990 
+	}
+	manpower=622952
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

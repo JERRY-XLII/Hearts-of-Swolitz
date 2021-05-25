@@ -1,0 +1,31 @@
+
+state={
+	id=217
+	name="STATE_217"
+	resources={
+		tungsten=24.000
+	}
+
+	history={
+		owner = RAJ
+		victory_points = {
+			10866 1 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 0
+
+		}
+		add_core_of = RAJ
+		add_claim_by = X17
+	}
+
+	provinces={
+		1199 2092 4149 4984 10847 10866 12041 12718 12829 12844 12876 12886 
+	}
+	manpower=3256460
+	buildings_max_level_factor=1.000
+	state_category=city
+}

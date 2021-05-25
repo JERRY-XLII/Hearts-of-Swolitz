@@ -1,0 +1,30 @@
+
+state={
+	id=84
+	name="STATE_84"
+	resources={
+		aluminium=1.000
+	}
+
+	history={
+		owner = X11
+		victory_points = {
+			5214 1 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 0
+
+		}
+		add_core_of = X11
+	}
+
+	provinces={
+		5214 
+	}
+	manpower=89236
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

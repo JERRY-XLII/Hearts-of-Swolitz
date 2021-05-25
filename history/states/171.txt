@@ -1,0 +1,30 @@
+
+state={
+	id=171
+	name="STATE_171"
+	resources={
+		oil=4.000
+		steel=8.000
+	}
+
+	history={
+		owner = FLA
+		victory_points = {
+			1836 0 
+		}
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 1
+
+		}
+	}
+
+	provinces={
+		1752 1836 4772 10685 
+	}
+	manpower=236048
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

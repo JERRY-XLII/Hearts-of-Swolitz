@@ -1,0 +1,33 @@
+
+state={
+	id=252
+	name="STATE_252"
+	resources={
+		chromium=146.000
+	}
+
+	history={
+		owner = HUN
+		victory_points = {
+			4112 2 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+			arms_factory = 1
+			9799 = {
+				naval_base = 4
+			}
+			air_base = 0
+
+		}
+		add_core_of = HUN
+	}
+
+	provinces={
+		785 928 1119 3927 4112 6864 6912 6992 7130 9799 9887 9921 9929 9941 10038 10122 11778 11848 11898 11917 12096 
+	}
+	manpower=2321372
+	buildings_max_level_factor=1.000
+	state_category=town
+}

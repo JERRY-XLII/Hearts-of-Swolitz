@@ -1,0 +1,32 @@
+
+state={
+	id=720
+	name="STATE_720"
+	resources={
+		chromium=1.000
+		oil=0.000
+		steel=1.000
+		tungsten=1.000
+	}
+
+	history={
+		owner = X80
+		victory_points = {
+			4893 0 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 0
+
+		}
+	}
+
+	provinces={
+		4893 8053 10476 12871 
+	}
+	manpower=177044
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

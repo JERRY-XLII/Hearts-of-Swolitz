@@ -1,0 +1,31 @@
+
+state={
+	id=154
+	name="STATE_154"
+	resources={
+		aluminium=4.000
+	}
+
+	history={
+		owner = COL
+		victory_points = {
+			13083 0 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 0
+
+		}
+		add_claim_by = BRA
+		add_claim_by = PAR
+	}
+
+	provinces={
+		1979 2198 5083 5216 5232 8185 8254 10960 12919 12965 13083 
+	}
+	manpower=2165340
+	buildings_max_level_factor=1.000
+	state_category=town
+}

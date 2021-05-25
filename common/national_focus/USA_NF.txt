@@ -1,0 +1,262 @@
+focus_tree = {
+	id = USA_focus
+	
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 10
+			tag = USA
+		}
+	}
+	
+	default = no
+	
+	shared_focus = army_effort
+	shared_focus = aviation_effort
+	shared_focus = naval_effort
+	shared_focus = industrial_effort
+	shared_focus = political_effort
+
+	focus = {
+		id = The_third_wayUSA
+		icon = GFX_goal_support_fascism
+		text = The_third_way
+		x = 24
+		y = 0
+		cost = 10
+		completion_reward = {
+			add_named_threat = { threat = 2 name = The_third_way }
+			add_ideas = fascist_influence
+		}
+		ai_will_do = {
+		factor = 5
+		}
+	}
+
+	focus = {
+		id = mil_marchUSA
+		icon = GFX_goal_generic_allies_build_infantry
+		text = mil_march
+		prerequisite = { focus = The_third_wayUSA }
+		x = 0
+		y = 1
+		relative_position_id = The_third_wayUSA
+		cost = 10
+		completion_reward = {
+		army_experience = 20
+		add_tech_bonus = {
+			bonus = 0.5
+			uses = 2
+			category = land_doctrine
+		}
+	}
+		ai_will_do = {
+		factor = 5
+		}
+	}
+
+	focus = {
+		id = USA_anschluss_X68
+		icon = GFX_goal_anschluss
+		text = _anschluss_X68
+		prerequisite = { focus = mil_marchUSA }
+		x = 24
+		y = 2
+		cost = 10
+		available = {
+			X68 = {
+				is_in_faction = no
+			}
+			is_puppet = no
+			date > 1937.7.8
+		}
+		completion_reward = {
+			add_named_threat = { threat = 2 name = "Union with New Mexico" }
+			army_experience = 10
+			if = {
+				limit = {
+					country_exists = X68
+				}
+				X68 = {
+					country_event = NFEvents.5
+				}
+			}
+		}
+		ai_will_do = {
+		factor = 10
+		modifier = {
+			factor = 0
+			date < 1937.6.6
+		}
+	}
+	}
+
+	focus = {
+		id = expand_the_reichUSA
+		icon = GFX_goal_generic_political_pressure
+		text = expand_the_reich
+		x = 26
+		y = 0
+		cost = 10
+		completion_reward = {
+			add_named_threat = { threat = 3 name = expand_the_reich }
+			add_political_power = 150
+		}
+		ai_will_do = {
+		factor = 5
+		}
+	}
+
+	focus = {
+		id = USA_sudeten_MEX
+		icon = GFX_goal_anschluss
+		text = _sudeten_MEX
+		prerequisite = { focus = expand_the_reichUSA }
+		bypass = {
+  has_war_with = MEX
+}
+		x = 26
+		y = 1
+		cost = 10
+		available = {
+			is_puppet = no
+			date > 1938.7.5
+		}
+		completion_reward = {
+			add_named_threat = { threat = 2 name = "Demand Territory from Mexico" }
+			army_experience = 10
+			if = {
+				limit = {
+					country_exists = MEX
+				}
+				MEX = {
+					country_event = NFEvents.8
+				}
+			}
+		}
+		ai_will_do = {
+		factor = 10
+		modifier = {
+			factor = 0
+			date < 1937.6.6
+		}
+	}
+	}
+
+	focus = {
+		id = USA_finish_MEX
+		icon = GFX_goal_generic_territory_or_war
+		text = _finish_MEX
+		prerequisite = { focus =  USA_sudeten_MEX }
+		bypass = {
+		has_war_with = MEX
+	}
+		x = 26
+		y = 2
+		cost = 10
+		available = {
+	MEX = { is_in_faction = no }
+		}
+		completion_reward = {
+			add_named_threat = { threat = 3 name = "Fate of Mexico" }
+			create_wargoal = {
+				type = annex_everything
+				target = MEX
+			}
+		}
+		ai_will_do = {
+		factor = 10
+		modifier = {
+			factor = 0
+			date < 1937.6.6
+		}
+	}
+	}
+
+	focus = {
+		id = Fas_SummitUSA
+		icon = GFX_goal_generic_allies_build_infantry
+		text = Fascist_Summit
+		x = 28
+		y = 0
+		cost = 10
+		completion_reward = {
+			add_named_threat = { threat = 3 name = "Call for the Fascist Summit" }
+			add_political_power = 150
+		}
+		ai_will_do = {
+		factor = 2
+		modifier = {
+			factor = 10
+			date > 1938.1.1
+		}
+	}
+	}
+
+	focus = {
+		id = Alliance_X31USA
+		icon = GFX_goal_generic_allies_build_infantry
+		text = Alliance_X31
+		prerequisite = { focus = Fas_SummitUSA }
+		bypass = {
+			OR = {
+				USA = { is_in_faction_with = X31}
+				has_war_with = X31
+				NOT = { country_exists = X31 }
+			}
+		}
+		x = 0
+		y = 1
+		relative_position_id = Fas_SummitUSA
+		cost = 10
+		available = {
+			OR = {
+				is_faction_leader = yes
+				is_in_faction = no
+			}
+	}
+		completion_reward = {
+			X31 = {
+				country_event = { hours = 6 id = NFEvents.11 }
+				add_opinion_modifier = { target = USA modifier = positive_50 }
+			}
+		}
+		ai_will_do = {
+			factor = 10
+	}
+	}
+
+	focus = {
+		id = GP_WarQUEUSA
+		icon = GFX_goal_generic_major_war
+		text = GP_WarQUE
+		prerequisite = { focus = Alliance_X31USA }
+		bypass = {
+		   has_war_with = QUE
+		}
+		x = 0
+		y = 2
+		relative_position_id = Fas_SummitUSA
+		cost = 10
+		available = {
+			has_war = no
+			date > 1939.6.5
+		}
+		completion_reward = {
+			add_named_threat = { threat = 5 name = "War with Quebec" }
+			declare_war_on = {
+				type = puppet_wargoal_focus
+				target = QUE
+			}
+		}
+		ai_will_do = {
+			factor = 5
+			modifier = {
+					factor = 0
+					strength_ratio = { tag = QUE ratio < 1 }
+			}
+		}
+	}
+
+}
