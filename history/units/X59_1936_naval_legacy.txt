@@ -1,0 +1,63 @@
+units = {
+	fleet = {
+		name = "5th Fleet"
+		naval_base = 7215
+		task_force = {
+			name = "5th Fleet"
+			location = 7215
+			ship = { name = "Rafaelle" definition = battleship equipment = { battleship_2 = { amount = 1 owner = X59 } } }
+			ship = { name = "2nd Trieste Dreadnought" definition = battleship equipment = { battleship_2 = { amount = 1 owner = X59 } } }
+			ship = { name = "Regno" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X59 } } }
+			ship = { name = "San Petronio" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X59 } } }
+			ship = { name = "2nd Genoa Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X59 } } }
+		}
+	}
+	fleet = {
+		name = "4th Fleet"
+		naval_base = 9904
+		task_force = {
+			name = "4th Fleet"
+			location = 9904
+			ship = { name = "1st Genoa Dreadnought" definition = battleship equipment = { battleship_2 = { amount = 1 owner = X59 } } }
+			ship = { name = "1st Venice Dreadnought" definition = battleship equipment = { battleship_2 = { amount = 1 owner = X59 } } }
+			ship = { name = "1st Trieste Dreadnought" definition = battleship equipment = { battleship_2 = { amount = 1 owner = X59 } } }
+			ship = { name = "1st Massa Dreadnought" definition = battleship equipment = { battleship_2 = { amount = 1 owner = X59 } } }
+			ship = { name = "1st Ravenna Dreadnought" definition = battleship equipment = { battleship_2 = { amount = 1 owner = X59 } } }
+			ship = { name = "3rd Trieste Dreadnought" definition = battleship equipment = { battleship_2 = { amount = 1 owner = X59 } } }
+			ship = { name = "3rd Venice Dreadnought" definition = battleship equipment = { battleship_2 = { amount = 1 owner = X59 } } }
+			ship = { name = "4th Venice Dreadnought" definition = battleship equipment = { battleship_2 = { amount = 1 owner = X59 } } }
+			ship = { name = "4th Trieste Dreadnought" definition = battleship equipment = { battleship_2 = { amount = 1 owner = X59 } } }
+			ship = { name = "2nd Genoa Dreadnought" definition = battleship equipment = { battleship_2 = { amount = 1 owner = X59 } } }
+			ship = { name = "5th Venice Dreadnought" definition = battleship equipment = { battleship_2 = { amount = 1 owner = X59 } } }
+			ship = { name = "1st Leghorn Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_2 = { amount = 1 owner = X59 } } }
+			ship = { name = "Patrona" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X59 } } }
+			ship = { name = "Toscana" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X59 } } }
+			ship = { name = "1st Genoa Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X59 } } }
+			ship = { name = "Pisa" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X59 } } }
+			ship = { name = "1st Palermo Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X59 } } }
+			ship = { name = "1st Trieste Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X59 } } }
+			ship = { name = "2nd Trieste Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = X59 } } }
+		}
+	}
+}
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = destroyer_2
+			creator = "X59"
+		}
+		requested_factories = 3
+		progress = 0.25
+		amount = 10
+	}
+	add_equipment_production = {
+		equipment = {
+			type = battleship_2
+			creator = "X59"
+		}
+		requested_factories = 8
+		progress = 0.25
+		amount = 3
+	}
+}

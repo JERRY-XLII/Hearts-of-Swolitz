@@ -1,0 +1,151 @@
+﻿converted_war_strategies_QUE = {
+	enable = {
+		always = no
+	}
+	
+	ai_strategy = {
+		type = conquer
+		id = "USA"
+		value = 1722
+	}
+	ai_strategy = {
+		type = conquer
+		id = "X74"
+		value = 1241
+	}
+	ai_strategy = {
+		type = conquer
+		id = "ROM"
+		value = 438
+	}
+	ai_strategy = {
+		type = conquer
+		id = "X20"
+		value = 73
+	}
+}
+
+converted_diplo_strategies_QUE = {
+	enable = {
+		tag = QUE
+	}
+	abort = {
+		always = no
+	}
+	
+	ai_strategy = {
+		type = contain
+		id = "USA"
+		value = 400
+	}
+	ai_strategy = {
+		type = contain
+		id = "X74"
+		value = 334
+	}
+	ai_strategy = {
+		type = contain
+		id = "X35"
+		value = 155
+	}
+	ai_strategy = {
+		type = contain
+		id = "FLA"
+		value = 138
+	}
+	ai_strategy = {
+		type = contain
+		id = "MEX"
+		value = 100
+	}
+	ai_strategy = {
+		type = contain
+		id = "X59"
+		value = 85
+	}
+	ai_strategy = {
+		type = contain
+		id = "HUN"
+		value = 74
+	}
+	ai_strategy = {
+		type = contain
+		id = "FRA"
+		value = 68
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "USA"
+		value = 400
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "X74"
+		value = 353
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "ROM"
+		value = 218
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "X20"
+		value = 60
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "X90"
+		value = 55
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "X35"
+		value = 48
+	}
+	ai_strategy = {
+		type = alliance
+		id = "X78"
+		value = 200
+	}
+	ai_strategy = {
+		type = alliance
+		id = "MEX"
+		value = 178
+	}
+	ai_strategy = {
+		type = alliance
+		id = "CHI"
+		value = 157
+	}
+	ai_strategy = {
+		type = alliance
+		id = "FRA"
+		value = 93
+	}
+	ai_strategy = {
+		type = protect
+		id = "CUB"
+		value = 168
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "USA"
+		value = 163
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "X74"
+		value = 126
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "X35"
+		value = 53
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "COL"
+		value = 41
+	}
+}

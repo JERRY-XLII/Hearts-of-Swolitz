@@ -1,0 +1,146 @@
+﻿converted_war_strategies_CUB = {
+	enable = {
+		always = no
+	}
+	
+	ai_strategy = {
+		type = conquer
+		id = "X74"
+		value = 1314
+	}
+	ai_strategy = {
+		type = conquer
+		id = "ROM"
+		value = 438
+	}
+	ai_strategy = {
+		type = conquer
+		id = "QUE"
+		value = 104
+	}
+	ai_strategy = {
+		type = conquer
+		id = "X20"
+		value = 73
+	}
+	ai_strategy = {
+		type = conquer
+		id = "HUN"
+		value = 73
+	}
+	ai_strategy = {
+		type = conquer
+		id = "COL"
+		value = 56
+	}
+}
+
+converted_diplo_strategies_CUB = {
+	enable = {
+		tag = CUB
+	}
+	abort = {
+		always = no
+	}
+	
+	ai_strategy = {
+		type = contain
+		id = "COL"
+		value = 300
+	}
+	ai_strategy = {
+		type = contain
+		id = "MEX"
+		value = 111
+	}
+	ai_strategy = {
+		type = contain
+		id = "USA"
+		value = 75
+	}
+	ai_strategy = {
+		type = contain
+		id = "QUE"
+		value = 67
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "ROM"
+		value = 400
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "X74"
+		value = 238
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "COL"
+		value = 162
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "X20"
+		value = 97
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "X90"
+		value = 87
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "HUN"
+		value = 65
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "QUE"
+		value = 31
+	}
+	ai_strategy = {
+		type = alliance
+		id = "MEX"
+		value = 128
+	}
+	ai_strategy = {
+		type = alliance
+		id = "PRU"
+		value = 89
+	}
+	ai_strategy = {
+		type = alliance
+		id = "BRA"
+		value = 86
+	}
+	ai_strategy = {
+		type = alliance
+		id = "USA"
+		value = 84
+	}
+	ai_strategy = {
+		type = protect
+		id = "X89"
+		value = 93
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "COL"
+		value = 89
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "MEX"
+		value = 39
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "X20"
+		value = 33
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "BEL"
+		value = 25
+	}
+}

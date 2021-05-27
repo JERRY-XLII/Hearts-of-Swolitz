@@ -1,0 +1,63 @@
+units = {
+	fleet = {
+		name = "2nd Fleet"
+		naval_base = 6050
+		task_force = {
+			name = "2nd Fleet"
+			location = 6050
+			ship = { name = "Clas Eriksson Fleming" definition = battleship start_experience_factor = 0.20114 equipment = { ship_hull_heavy_2 = { amount = 1 owner = SWE version_name = "1936 Battleship" } } }
+			ship = { name = "Johan" definition = battleship start_experience_factor = 0.22631 equipment = { ship_hull_heavy_2 = { amount = 1 owner = SWE version_name = "1936 Battleship" } } }
+			ship = { name = "Henrik af Trolle" definition = battleship start_experience_factor = 0.26293 equipment = { ship_hull_heavy_2 = { amount = 1 owner = SWE version_name = "1936 Battleship" } } }
+			ship = { name = "Dristigheten" definition = battleship start_experience_factor = 0.3 equipment = { ship_hull_heavy_2 = { amount = 1 owner = SWE version_name = "1936 Battleship" } } }
+			ship = { name = "Sverige" definition = battleship start_experience_factor = 0.3 equipment = { ship_hull_heavy_2 = { amount = 1 owner = SWE version_name = "1936 Battleship" } } }
+			ship = { name = "1st Bergen Dreadnought" definition = battleship start_experience_factor = 0.3 equipment = { ship_hull_heavy_2 = { amount = 1 owner = SWE version_name = "1936 Battleship" } } }
+			ship = { name = "1st Frederiksstad Dreadnought" definition = battleship start_experience_factor = 0.3 equipment = { ship_hull_heavy_2 = { amount = 1 owner = SWE version_name = "1936 Battleship" } } }
+			ship = { name = "3rd Gävle Battleship" definition = heavy_cruiser start_experience_factor = 0.21008 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SWE version_name = "1936 Heavy Cruiser" } } }
+			ship = { name = "1st Gävle Battleship" definition = heavy_cruiser start_experience_factor = 0.24152 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SWE version_name = "1936 Heavy Cruiser" } } }
+			ship = { name = "1st Stockholm Battleship" definition = heavy_cruiser start_experience_factor = 0.23809 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SWE version_name = "1936 Heavy Cruiser" } } }
+			ship = { name = "3rd Bodo Battleship" definition = heavy_cruiser start_experience_factor = 0.21366 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SWE version_name = "1936 Heavy Cruiser" } } }
+			ship = { name = "4th Gävle Battleship" definition = heavy_cruiser start_experience_factor = 0.26397 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SWE version_name = "1936 Heavy Cruiser" } } }
+			ship = { name = "1st Bodo Battleship" definition = heavy_cruiser start_experience_factor = 0.21752 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SWE version_name = "1936 Heavy Cruiser" } } }
+			ship = { name = "1st Bergen Cruiser" definition = light_cruiser start_experience_factor = 0.27915 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SWE version_name = "1936 Light Cruiser" } } }
+			ship = { name = "Ornen" definition = light_cruiser start_experience_factor = 0.23331 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SWE version_name = "1936 Light Cruiser" } } }
+			ship = { name = "1st Frederiksstad Cruiser" definition = light_cruiser start_experience_factor = 0.28057 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SWE version_name = "1936 Light Cruiser" } } }
+			ship = { name = "2nd Onega Cruiser" definition = light_cruiser start_experience_factor = 0.29041 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SWE version_name = "1936 Light Cruiser" } } }
+			ship = { name = "1st Kola Cruiser" definition = light_cruiser start_experience_factor = 0.28113 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SWE version_name = "1936 Light Cruiser" } } }
+			ship = { name = "Göta Lejon" definition = light_cruiser start_experience_factor = 0.28057 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SWE version_name = "1936 Light Cruiser" } } }
+			ship = { name = "Borgholm" definition = light_cruiser start_experience_factor = 0.29583 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SWE version_name = "1936 Light Cruiser" } } }
+			ship = { name = "3rd Onega Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SWE version_name = "1936 Light Cruiser" } } }
+			ship = { name = "2nd Frederiksstad Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SWE version_name = "1936 Light Cruiser" } } }
+			ship = { name = "1st Åland Islands Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SWE version_name = "1936 Light Cruiser" } } }
+			ship = { name = "3rd Frederiksstad Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SWE version_name = "1936 Light Cruiser" } } }
+			ship = { name = "1st Bodo Cruiser" definition = light_cruiser start_experience_factor = 0.28607 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SWE version_name = "1936 Light Cruiser" } } }
+			ship = { name = "Psilander" definition = light_cruiser start_experience_factor = 0.23719 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SWE version_name = "1936 Light Cruiser" } } }
+			ship = { name = "2nd Bergen Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SWE version_name = "1936 Light Cruiser" } } }
+			ship = { name = "1st Gävle Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SWE version_name = "1936 Light Cruiser" } } }
+			ship = { name = "2nd Bodo Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SWE version_name = "1936 Light Cruiser" } } }
+			ship = { name = "Fylgia" definition = light_cruiser start_experience_factor = 0.2338 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SWE version_name = "1936 Light Cruiser" } } }
+		}
+	}
+}
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_light_2
+			creator = "SWE"
+			version_name = "1936 Destroyer"
+		}
+		requested_factories = 3
+		progress = 0.25
+		amount = 10
+	}
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_heavy_2
+			creator = "SWE"
+			version_name = "1936 Battleship"
+		}
+		requested_factories = 8
+		progress = 0.25
+		amount = 3
+	}
+}

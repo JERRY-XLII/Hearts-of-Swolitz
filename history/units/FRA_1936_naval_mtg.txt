@@ -1,0 +1,71 @@
+units = {
+	fleet = {
+		name = "4th Fleet"
+		naval_base = 575
+		task_force = {
+			name = "4th Fleet"
+			location = 575
+			ship = { name = "Dunkerque" definition = battleship start_experience_factor = 0.3 equipment = { ship_hull_heavy_1 = { amount = 1 owner = FRA version_name = "Early Battleship" } } }
+			ship = { name = "Strasbourg" definition = battleship start_experience_factor = 0.3 equipment = { ship_hull_heavy_1 = { amount = 1 owner = FRA version_name = "Early Battleship" } } }
+			ship = { name = "Richelieu" definition = battleship start_experience_factor = 0.3 equipment = { ship_hull_heavy_1 = { amount = 1 owner = FRA version_name = "Early Battleship" } } }
+			ship = { name = "Clemenceau" definition = battleship start_experience_factor = 0.3 equipment = { ship_hull_heavy_1 = { amount = 1 owner = FRA version_name = "Early Battleship" } } }
+			ship = { name = "Jauréguiberry" definition = heavy_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = FRA version_name = "Early Heavy Cruiser" } } }
+			ship = { name = "Carnot" definition = heavy_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = FRA version_name = "Early Heavy Cruiser" } } }
+			ship = { name = "Suffren" definition = heavy_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = FRA version_name = "Early Heavy Cruiser" } } }
+			ship = { name = "Brennus" definition = heavy_cruiser start_experience_factor = 0.25914 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = FRA version_name = "Early Heavy Cruiser" } } }
+			ship = { name = "Liberté" definition = heavy_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = FRA version_name = "Early Heavy Cruiser" } } }
+			ship = { name = "République" definition = heavy_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = FRA version_name = "Early Heavy Cruiser" } } }
+			ship = { name = "Bouvet" definition = heavy_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = FRA version_name = "Early Heavy Cruiser" } } }
+			ship = { name = "Gaulois" definition = heavy_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = FRA version_name = "Early Heavy Cruiser" } } }
+			ship = { name = "Vérité" definition = heavy_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = FRA version_name = "Early Heavy Cruiser" } } }
+			ship = { name = "Patrie" definition = heavy_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = FRA version_name = "Early Heavy Cruiser" } } }
+			ship = { name = "Charlemagne" definition = heavy_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = FRA version_name = "Early Heavy Cruiser" } } }
+			ship = { name = "Iéna" definition = heavy_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = FRA version_name = "Early Heavy Cruiser" } } }
+			ship = { name = "Charles Martel" definition = heavy_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = FRA version_name = "Early Heavy Cruiser" } } }
+			ship = { name = "St Louis" definition = heavy_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = FRA version_name = "Early Heavy Cruiser" } } }
+			ship = { name = "Masséna" definition = heavy_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = FRA version_name = "Early Heavy Cruiser" } } }
+			ship = { name = "Justice" definition = heavy_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = FRA version_name = "Early Heavy Cruiser" } } }
+			ship = { name = "Austerlitz" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = FRA version_name = "Early Light Cruiser" } } }
+			ship = { name = "Souverain" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = FRA version_name = "Early Light Cruiser" } } }
+			ship = { name = "Vercingetorix" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = FRA version_name = "Early Light Cruiser" } } }
+			ship = { name = "Vauban" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = FRA version_name = "Early Light Cruiser" } } }
+			ship = { name = "Clovis" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = FRA version_name = "Early Light Cruiser" } } }
+			ship = { name = "Leger" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = FRA version_name = "Early Light Cruiser" } } }
+			ship = { name = "Maurice de Saxe" definition = light_cruiser start_experience_factor = 0.2721 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = FRA version_name = "Early Light Cruiser" } } }
+			ship = { name = "Dunois" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = FRA version_name = "Early Light Cruiser" } } }
+			ship = { name = "Ney" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = FRA version_name = "Early Light Cruiser" } } }
+			ship = { name = "Turenne" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = FRA version_name = "Early Light Cruiser" } } }
+			ship = { name = "Montebello" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = FRA version_name = "Early Light Cruiser" } } }
+			ship = { name = "Conde" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = FRA version_name = "Early Light Cruiser" } } }
+			ship = { name = "Navarin" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = FRA version_name = "Early Light Cruiser" } } }
+			ship = { name = "Ulm" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = FRA version_name = "Early Light Cruiser" } } }
+			ship = { name = "Wagram" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = FRA version_name = "Early Light Cruiser" } } }
+			ship = { name = "Algésiras" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = FRA version_name = "Early Light Cruiser" } } }
+			ship = { name = "Friedland" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = FRA version_name = "Early Light Cruiser" } } }
+			ship = { name = "Impérial" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = FRA version_name = "Early Light Cruiser" } } }
+		}
+	}
+}
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_light_1
+			creator = "FRA"
+			version_name = "Early Destroyer"
+		}
+		requested_factories = 3
+		progress = 0.25
+		amount = 10
+	}
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_heavy_1
+			creator = "FRA"
+			version_name = "Early Battleship"
+		}
+		requested_factories = 8
+		progress = 0.25
+		amount = 3
+	}
+}

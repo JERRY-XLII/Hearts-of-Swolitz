@@ -1,0 +1,35 @@
+units = {
+	fleet = {
+		name = "1st Fleet"
+		naval_base = 1246
+		task_force = {
+			name = "1st Fleet"
+			location = 1246
+			ship = { name = "Djokjakarta" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = X56 } } }
+			ship = { name = "Kujang" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = X56 } } }
+			ship = { name = "Selat Sunda" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = X56 } } }
+			ship = { name = "Panaitan" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = X56 } } }
+		}
+	}
+}
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = destroyer_1
+			creator = "X56"
+		}
+		requested_factories = 3
+		progress = 0.25
+		amount = 10
+	}
+	add_equipment_production = {
+		equipment = {
+			type = battleship_1
+			creator = "X56"
+		}
+		requested_factories = 8
+		progress = 0.25
+		amount = 3
+	}
+}

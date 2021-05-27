@@ -1,0 +1,53 @@
+units = {
+	fleet = {
+		name = "4th Fleet"
+		naval_base = 6446
+		task_force = {
+			name = "4th Fleet"
+			location = 6446
+			ship = { name = "9th Bruges Dreadnought" definition = battleship equipment = { battleship_2 = { amount = 1 owner = FLA } } }
+			ship = { name = "7th Bruges Dreadnought" definition = battleship equipment = { battleship_2 = { amount = 1 owner = FLA } } }
+			ship = { name = "3rd Bruges Dreadnought" definition = battleship equipment = { battleship_2 = { amount = 1 owner = FLA } } }
+			ship = { name = "1st Bruges Dreadnought" definition = battleship equipment = { battleship_2 = { amount = 1 owner = FLA } } }
+			ship = { name = "4th Bruges Dreadnought" definition = battleship equipment = { battleship_2 = { amount = 1 owner = FLA } } }
+			ship = { name = "10th Bruges Dreadnought" definition = battleship equipment = { battleship_2 = { amount = 1 owner = FLA } } }
+			ship = { name = "11th Bruges Dreadnought" definition = battleship equipment = { battleship_2 = { amount = 1 owner = FLA } } }
+			ship = { name = "2nd Bruges Dreadnought" definition = battleship equipment = { battleship_2 = { amount = 1 owner = FLA } } }
+			ship = { name = "6th Bruges Dreadnought" definition = battleship equipment = { battleship_2 = { amount = 1 owner = FLA } } }
+			ship = { name = "5th Bruges Dreadnought" definition = battleship equipment = { battleship_2 = { amount = 1 owner = FLA } } }
+			ship = { name = "8th Bruges Dreadnought" definition = battleship equipment = { battleship_2 = { amount = 1 owner = FLA } } }
+			ship = { name = "8th Bruges Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = FLA } } }
+			ship = { name = "9th Bruges Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = FLA } } }
+			ship = { name = "2nd Aberdeen Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = FLA } } }
+			ship = { name = "3rd Edinburgh Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = FLA } } }
+			ship = { name = "1st Bruges Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = FLA } } }
+			ship = { name = "Mercator" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = FLA } } }
+			ship = { name = "3rd Bruges Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = FLA } } }
+			ship = { name = "4th Bruges Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = FLA } } }
+			ship = { name = "1st Edinburgh Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = FLA } } }
+			ship = { name = "2nd Bruges Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = FLA } } }
+			ship = { name = "7th Bruges Cruiser" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = FLA } } }
+		}
+	}
+}
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = destroyer_2
+			creator = "FLA"
+		}
+		requested_factories = 3
+		progress = 0.25
+		amount = 10
+	}
+	add_equipment_production = {
+		equipment = {
+			type = battleship_2
+			creator = "FLA"
+		}
+		requested_factories = 8
+		progress = 0.25
+		amount = 3
+	}
+}

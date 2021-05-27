@@ -1,0 +1,131 @@
+﻿converted_war_strategies_X33 = {
+	enable = {
+		always = no
+	}
+	
+	ai_strategy = {
+		type = conquer
+		id = "CHI"
+		value = 2055
+	}
+	ai_strategy = {
+		type = conquer
+		id = "MON"
+		value = 254
+	}
+	ai_strategy = {
+		type = conquer
+		id = "X26"
+		value = 100
+	}
+	ai_strategy = {
+		type = conquer
+		id = "SOV"
+		value = 30
+	}
+}
+
+converted_diplo_strategies_X33 = {
+	enable = {
+		tag = X33
+	}
+	abort = {
+		always = no
+	}
+	
+	ai_strategy = {
+		type = contain
+		id = "CHI"
+		value = 400
+	}
+	ai_strategy = {
+		type = contain
+		id = "MON"
+		value = 304
+	}
+	ai_strategy = {
+		type = contain
+		id = "SOV"
+		value = 213
+	}
+	ai_strategy = {
+		type = contain
+		id = "X26"
+		value = 158
+	}
+	ai_strategy = {
+		type = contain
+		id = "X81"
+		value = 15
+	}
+	ai_strategy = {
+		type = contain
+		id = "JAP"
+		value = 7
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "CHI"
+		value = 400
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "MON"
+		value = 157
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "X26"
+		value = 138
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "SOV"
+		value = 61
+	}
+	ai_strategy = {
+		type = alliance
+		id = "X81"
+		value = 200
+	}
+	ai_strategy = {
+		type = alliance
+		id = "X80"
+		value = 133
+	}
+	ai_strategy = {
+		type = alliance
+		id = "X74"
+		value = 45
+	}
+	ai_strategy = {
+		type = alliance
+		id = "X55"
+		value = 4
+	}
+	ai_strategy = {
+		type = protect
+		id = "X26"
+		value = 110
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "X26"
+		value = 150
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "X49"
+		value = 62
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "EGY"
+		value = 53
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "X11"
+		value = 25
+	}
+}

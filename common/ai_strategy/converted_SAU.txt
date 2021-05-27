@@ -1,0 +1,131 @@
+﻿converted_war_strategies_SAU = {
+	enable = {
+		always = no
+	}
+	
+	ai_strategy = {
+		type = conquer
+		id = "YEM"
+		value = 2595
+	}
+	ai_strategy = {
+		type = conquer
+		id = "X79"
+		value = 784
+	}
+	ai_strategy = {
+		type = conquer
+		id = "X74"
+		value = 535
+	}
+	ai_strategy = {
+		type = conquer
+		id = "IRQ"
+		value = 396
+	}
+	ai_strategy = {
+		type = conquer
+		id = "X06"
+		value = 346
+	}
+	ai_strategy = {
+		type = conquer
+		id = "OMA"
+		value = 173
+	}
+	ai_strategy = {
+		type = conquer
+		id = "X82"
+		value = 8
+	}
+}
+
+converted_diplo_strategies_SAU = {
+	enable = {
+		tag = SAU
+	}
+	abort = {
+		always = no
+	}
+	
+	ai_strategy = {
+		type = contain
+		id = "IRQ"
+		value = 263
+	}
+	ai_strategy = {
+		type = contain
+		id = "X06"
+		value = 159
+	}
+	ai_strategy = {
+		type = contain
+		id = "OMA"
+		value = 125
+	}
+	ai_strategy = {
+		type = contain
+		id = "X49"
+		value = 100
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "OMA"
+		value = 400
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "X06"
+		value = 360
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "IRQ"
+		value = 360
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "X79"
+		value = 118
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "X74"
+		value = 80
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "X82"
+		value = 1
+	}
+	ai_strategy = {
+		type = alliance
+		id = "X79"
+		value = 200
+	}
+	ai_strategy = {
+		type = alliance
+		id = "X30"
+		value = 43
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "IRQ"
+		value = 150
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "OMA"
+		value = 150
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "X06"
+		value = 125
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "X36"
+		value = 52
+	}
+}

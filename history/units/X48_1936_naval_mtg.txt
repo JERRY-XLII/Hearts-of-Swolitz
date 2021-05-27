@@ -1,0 +1,31 @@
+units = {
+	fleet = {
+		name = "1st Fleet"
+		naval_base = 241
+		task_force = {
+			name = "1st Fleet"
+			location = 241
+			ship = { name = "Holzminden" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = X48 version_name = "Early Destroyer" } } }
+			ship = { name = "Blankenburg" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = X48 version_name = "Early Destroyer" } } }
+			ship = { name = "Lüneburg" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = X48 version_name = "Early Destroyer" } } }
+			ship = { name = "Wolfenbüttel" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = X48 version_name = "Early Destroyer" } } }
+			ship = { name = "8th Oldenburg Commerce Raider" definition = destroyer start_experience_factor = 0.3 equipment = { ship_hull_light_1 = { amount = 1 owner = X48 version_name = "Early Destroyer" } } }
+			ship = { name = "7th Oldenburg Commerce Raider" definition = destroyer start_experience_factor = 0.3 equipment = { ship_hull_light_1 = { amount = 1 owner = X48 version_name = "Early Destroyer" } } }
+			ship = { name = "9th Oldenburg Commerce Raider" definition = destroyer start_experience_factor = 0.27156 equipment = { ship_hull_light_1 = { amount = 1 owner = X48 version_name = "Early Destroyer" } } }
+			ship = { name = "11th Oldenburg Commerce Raider" definition = destroyer start_experience_factor = 0.3 equipment = { ship_hull_light_1 = { amount = 1 owner = X48 version_name = "Early Destroyer" } } }
+		}
+	}
+}
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_light_1
+			creator = "X48"
+			version_name = "Early Destroyer"
+		}
+		requested_factories = 3
+		progress = 0.25
+		amount = 10
+	}
+}

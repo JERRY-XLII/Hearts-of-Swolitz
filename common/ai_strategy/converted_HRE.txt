@@ -1,0 +1,16 @@
+﻿converted_war_strategies_HRE = {
+	enable = {
+		always = no
+	}
+	
+}
+
+converted_diplo_strategies_HRE = {
+	enable = {
+		tag = HRE
+	}
+	abort = {
+		always = no
+	}
+	
+}

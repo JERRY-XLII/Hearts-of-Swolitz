@@ -1,0 +1,36 @@
+units = {
+	fleet = {
+		name = "1st Fleet"
+		naval_base = 7005
+		task_force = {
+			name = "1st Fleet"
+			location = 7005
+			ship = { name = "Falah" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = TUN } } }
+			ship = { name = "Faraj" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = TUN } } }
+			ship = { name = "Ghassan" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = TUN } } }
+			ship = { name = "Fawzan" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = TUN } } }
+			ship = { name = "Hanbal" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = TUN } } }
+		}
+	}
+}
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = destroyer_1
+			creator = "TUN"
+		}
+		requested_factories = 3
+		progress = 0.25
+		amount = 10
+	}
+	add_equipment_production = {
+		equipment = {
+			type = battleship_1
+			creator = "TUN"
+		}
+		requested_factories = 8
+		progress = 0.25
+		amount = 3
+	}
+}

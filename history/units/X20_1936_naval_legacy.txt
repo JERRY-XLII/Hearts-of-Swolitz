@@ -1,0 +1,67 @@
+units = {
+	fleet = {
+		name = "3rd Fleet"
+		naval_base = 758
+		task_force = {
+			name = "3rd Fleet"
+			location = 758
+			ship = { name = "3rd Oporto Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = X20 } } }
+			ship = { name = "4th Oporto Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = X20 } } }
+			ship = { name = "2nd La Coruña Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = X20 } } }
+			ship = { name = "2nd Oporto Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = X20 } } }
+			ship = { name = "2nd Coimbra Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = X20 } } }
+			ship = { name = "1st Beja Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = X20 } } }
+			ship = { name = "4th Coimbra Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = X20 } } }
+			ship = { name = "3rd Beja Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = X20 } } }
+			ship = { name = "5th Coimbra Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = X20 } } }
+			ship = { name = "3rd Coimbra Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = X20 } } }
+			ship = { name = "2nd Beja Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = X20 } } }
+			ship = { name = "1st Coimbra Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = X20 } } }
+			ship = { name = "1st Oporto Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = X20 } } }
+			ship = { name = "3rd La Coruña Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = X20 } } }
+			ship = { name = "4th La Coruña Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = X20 } } }
+			ship = { name = "4th Beja Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = X20 } } }
+			ship = { name = "5th La Coruña Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = X20 } } }
+			ship = { name = "5th Beja Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = X20 } } }
+			ship = { name = "2nd Coimbra Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = X20 } } }
+			ship = { name = "3rd Beja Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = X20 } } }
+			ship = { name = "1st La Coruña Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = X20 } } }
+			ship = { name = "4th Beja Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = X20 } } }
+			ship = { name = "1st Beja Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = X20 } } }
+			ship = { name = "Adamastor" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = X20 } } }
+			ship = { name = "D. Carlos I" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = X20 } } }
+			ship = { name = "Almirante Reis" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = X20 } } }
+			ship = { name = "Gil Eannes" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = X20 } } }
+			ship = { name = "1st Coimbra Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = X20 } } }
+			ship = { name = "República" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = X20 } } }
+			ship = { name = "Pedro Nunes" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = X20 } } }
+			ship = { name = "S. Gabriel" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = X20 } } }
+			ship = { name = "2nd Beja Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = X20 } } }
+			ship = { name = "2nd La Coruña Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = X20 } } }
+			ship = { name = "5th Beja Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = X20 } } }
+			ship = { name = "6th Beja Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = X20 } } }
+			ship = { name = "3rd La Coruña Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = X20 } } }
+		}
+	}
+}
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = destroyer_1
+			creator = "X20"
+		}
+		requested_factories = 3
+		progress = 0.25
+		amount = 10
+	}
+	add_equipment_production = {
+		equipment = {
+			type = battleship_1
+			creator = "X20"
+		}
+		requested_factories = 8
+		progress = 0.25
+		amount = 3
+	}
+}

@@ -1,0 +1,48 @@
+units = {
+	fleet = {
+		name = "1st Fleet"
+		naval_base = 10993
+		task_force = {
+			name = "1st Fleet"
+			location = 2516
+			ship = { name = "Arihant" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = X02 } } }
+			ship = { name = "Ratnakar" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = X02 } } }
+		}
+	}
+	fleet = {
+		name = "2nd Fleet"
+		naval_base = 10993
+		task_force = {
+			name = "2nd Fleet"
+			location = 8625
+			ship = { name = "Narhari" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = X02 } } }
+			ship = { name = "Makarand" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = X02 } } }
+			ship = { name = "Anupam" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = X02 } } }
+			ship = { name = "Dhananjay" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = X02 } } }
+			ship = { name = "Kaushal" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = X02 } } }
+			ship = { name = "Hemendra" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = X02 } } }
+			ship = { name = "Shashwat" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = X02 } } }
+		}
+	}
+}
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = destroyer_1
+			creator = "X02"
+		}
+		requested_factories = 3
+		progress = 0.25
+		amount = 10
+	}
+	add_equipment_production = {
+		equipment = {
+			type = battleship_1
+			creator = "X02"
+		}
+		requested_factories = 8
+		progress = 0.25
+		amount = 3
+	}
+}

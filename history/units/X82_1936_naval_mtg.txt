@@ -1,0 +1,59 @@
+units = {
+	fleet = {
+		name = "1st Fleet"
+		naval_base = 12029
+		task_force = {
+			name = "1st Fleet"
+			location = 12029
+			ship = { name = "10th Trabzon Battleship" definition = heavy_cruiser start_experience_factor = 0.2 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = X82 version_name = "Early Heavy Cruiser" } } }
+			ship = { name = "4th Antioch Battleship" definition = heavy_cruiser start_experience_factor = 0.2 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = X82 version_name = "Early Heavy Cruiser" } } }
+			ship = { name = "5th Mersin Battleship" definition = heavy_cruiser start_experience_factor = 0.2 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = X82 version_name = "Early Heavy Cruiser" } } }
+			ship = { name = "5th Adana Battleship" definition = heavy_cruiser start_experience_factor = 0.2 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = X82 version_name = "Early Heavy Cruiser" } } }
+			ship = { name = "4th Askaleh Battleship" definition = heavy_cruiser start_experience_factor = 0.2 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = X82 version_name = "Early Heavy Cruiser" } } }
+			ship = { name = "11th Trabzon Battleship" definition = heavy_cruiser start_experience_factor = 0.2 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = X82 version_name = "Early Heavy Cruiser" } } }
+			ship = { name = "5th Askaleh Battleship" definition = heavy_cruiser start_experience_factor = 0.2 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = X82 version_name = "Early Heavy Cruiser" } } }
+			ship = { name = "3rd Askaleh Battleship" definition = heavy_cruiser start_experience_factor = 0.2 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = X82 version_name = "Early Heavy Cruiser" } } }
+			ship = { name = "2nd Mersin Battleship" definition = heavy_cruiser start_experience_factor = 0.18649 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = X82 version_name = "Early Heavy Cruiser" } } }
+			ship = { name = "1st Mersin Battleship" definition = heavy_cruiser start_experience_factor = 0.18943 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = X82 version_name = "Early Heavy Cruiser" } } }
+			ship = { name = "8th Trabzon Battleship" definition = heavy_cruiser start_experience_factor = 0.18805 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = X82 version_name = "Early Heavy Cruiser" } } }
+			ship = { name = "2nd Antioch Battleship" definition = heavy_cruiser start_experience_factor = 0.2 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = X82 version_name = "Early Heavy Cruiser" } } }
+			ship = { name = "3rd Antioch Battleship" definition = heavy_cruiser start_experience_factor = 0.2 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = X82 version_name = "Early Heavy Cruiser" } } }
+			ship = { name = "3rd Mersin Battleship" definition = heavy_cruiser start_experience_factor = 0.2 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = X82 version_name = "Early Heavy Cruiser" } } }
+			ship = { name = "2nd Adana Battleship" definition = heavy_cruiser start_experience_factor = 0.2 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = X82 version_name = "Early Heavy Cruiser" } } }
+			ship = { name = "4th Trabzon Battleship" definition = heavy_cruiser start_experience_factor = 0.2 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = X82 version_name = "Early Heavy Cruiser" } } }
+			ship = { name = "1st Adana Battleship" definition = heavy_cruiser start_experience_factor = 0.2 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = X82 version_name = "Early Heavy Cruiser" } } }
+			ship = { name = "9th Trabzon Battleship" definition = heavy_cruiser start_experience_factor = 0.2 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = X82 version_name = "Early Heavy Cruiser" } } }
+			ship = { name = "3rd Antioch Cruiser" definition = light_cruiser start_experience_factor = 0.2 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = X82 version_name = "Early Light Cruiser" } } }
+			ship = { name = "7th Adana Cruiser" definition = light_cruiser start_experience_factor = 0.2 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = X82 version_name = "Early Light Cruiser" } } }
+			ship = { name = "2nd Antioch Cruiser" definition = light_cruiser start_experience_factor = 0.2 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = X82 version_name = "Early Light Cruiser" } } }
+			ship = { name = "2nd Askaleh Cruiser" definition = light_cruiser start_experience_factor = 0.2 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = X82 version_name = "Early Light Cruiser" } } }
+			ship = { name = "5th Trabzon Cruiser" definition = light_cruiser start_experience_factor = 0.2 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = X82 version_name = "Early Light Cruiser" } } }
+			ship = { name = "6th Trabzon Cruiser" definition = light_cruiser start_experience_factor = 0.2 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = X82 version_name = "Early Light Cruiser" } } }
+			ship = { name = "1st Mersin Cruiser" definition = light_cruiser start_experience_factor = 0.18648 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = X82 version_name = "Early Light Cruiser" } } }
+			ship = { name = "5th Mersin Cruiser" definition = light_cruiser start_experience_factor = 0.2 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = X82 version_name = "Early Light Cruiser" } } }
+			ship = { name = "2nd Mersin Cruiser" definition = light_cruiser start_experience_factor = 0.2 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = X82 version_name = "Early Light Cruiser" } } }
+			ship = { name = "3rd Askaleh Cruiser" definition = light_cruiser start_experience_factor = 0.2 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = X82 version_name = "Early Light Cruiser" } } }
+			ship = { name = "1st Trabzon Cruiser" definition = light_cruiser start_experience_factor = 0.2 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = X82 version_name = "Early Light Cruiser" } } }
+			ship = { name = "2nd Adana Cruiser" definition = light_cruiser start_experience_factor = 0.2 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = X82 version_name = "Early Light Cruiser" } } }
+			ship = { name = "1st Askaleh Cruiser" definition = light_cruiser start_experience_factor = 0.2 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = X82 version_name = "Early Light Cruiser" } } }
+			ship = { name = "4th Mersin Cruiser" definition = light_cruiser start_experience_factor = 0.2 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = X82 version_name = "Early Light Cruiser" } } }
+			ship = { name = "3rd Trabzon Cruiser" definition = light_cruiser start_experience_factor = 0.2 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = X82 version_name = "Early Light Cruiser" } } }
+			ship = { name = "1st Adana Cruiser" definition = light_cruiser start_experience_factor = 0.17363 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = X82 version_name = "Early Light Cruiser" } } }
+			ship = { name = "4th Trabzon Cruiser" definition = light_cruiser start_experience_factor = 0.2 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = X82 version_name = "Early Light Cruiser" } } }
+			ship = { name = "6th Mersin Cruiser" definition = light_cruiser start_experience_factor = 0.2 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = X82 version_name = "Early Light Cruiser" } } }
+		}
+	}
+}
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_light_1
+			creator = "X82"
+			version_name = "Early Destroyer"
+		}
+		requested_factories = 3
+		progress = 0.25
+		amount = 10
+	}
+}

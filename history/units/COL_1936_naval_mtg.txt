@@ -1,0 +1,47 @@
+units = {
+	fleet = {
+		name = "1st Fleet"
+		naval_base = 13087
+		task_force = {
+			name = "1st Fleet"
+			location = 13087
+			ship = { name = "1st San Pedro Sula Battleship" definition = heavy_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = COL version_name = "Early Heavy Cruiser" } } }
+			ship = { name = "1st Puerto Barrios Battleship" definition = heavy_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = COL version_name = "Early Heavy Cruiser" } } }
+			ship = { name = "1st Bacalar Battleship" definition = heavy_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = COL version_name = "Early Heavy Cruiser" } } }
+			ship = { name = "1st Bluefields Battleship" definition = heavy_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = COL version_name = "Early Heavy Cruiser" } } }
+			ship = { name = "1st Güiria Battleship" definition = heavy_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = COL version_name = "Early Heavy Cruiser" } } }
+			ship = { name = "1st Balboa Battleship" definition = heavy_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = COL version_name = "Early Heavy Cruiser" } } }
+			ship = { name = "2nd Bacalar Battleship" definition = heavy_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = COL version_name = "Early Heavy Cruiser" } } }
+			ship = { name = "2nd Bluefields Battleship" definition = heavy_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = COL version_name = "Early Heavy Cruiser" } } }
+			ship = { name = "2nd San Pedro Sula Battleship" definition = heavy_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = COL version_name = "Early Heavy Cruiser" } } }
+			ship = { name = "2nd Balboa Battleship" definition = heavy_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = COL version_name = "Early Heavy Cruiser" } } }
+			ship = { name = "3rd Bacalar Battleship" definition = heavy_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = COL version_name = "Early Heavy Cruiser" } } }
+			ship = { name = "3rd Bluefields Battleship" definition = heavy_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = COL version_name = "Early Heavy Cruiser" } } }
+			ship = { name = "2nd Puerto Barrios Battleship" definition = heavy_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = COL version_name = "Early Heavy Cruiser" } } }
+			ship = { name = "1st Buenaventura Battleship" definition = heavy_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = COL version_name = "Early Heavy Cruiser" } } }
+			ship = { name = "3rd Güiria Battleship" definition = heavy_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = COL version_name = "Early Heavy Cruiser" } } }
+			ship = { name = "3rd San Pedro Sula Battleship" definition = heavy_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = COL version_name = "Early Heavy Cruiser" } } }
+			ship = { name = "Bolívar" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = COL version_name = "Early Light Cruiser" } } }
+			ship = { name = "Cali" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = COL version_name = "Early Light Cruiser" } } }
+			ship = { name = "Bogotá" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = COL version_name = "Early Light Cruiser" } } }
+			ship = { name = "Córdoba" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = COL version_name = "Early Light Cruiser" } } }
+			ship = { name = "Cúcuta" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = COL version_name = "Early Light Cruiser" } } }
+			ship = { name = "Cundinamarca" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = COL version_name = "Early Light Cruiser" } } }
+			ship = { name = "Medellin" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = COL version_name = "Early Light Cruiser" } } }
+			ship = { name = "Santander" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = COL version_name = "Early Light Cruiser" } } }
+		}
+	}
+}
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_light_1
+			creator = "COL"
+			version_name = "Early Destroyer"
+		}
+		requested_factories = 3
+		progress = 0.25
+		amount = 10
+	}
+}

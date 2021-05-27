@@ -1,0 +1,101 @@
+﻿converted_war_strategies_X87 = {
+	enable = {
+		always = no
+	}
+	
+	ai_strategy = {
+		type = conquer
+		id = "HUN"
+		value = 719
+	}
+	ai_strategy = {
+		type = conquer
+		id = "TUR"
+		value = 216
+	}
+	ai_strategy = {
+		type = conquer
+		id = "SOV"
+		value = 146
+	}
+}
+
+converted_diplo_strategies_X87 = {
+	enable = {
+		tag = X87
+	}
+	abort = {
+		always = no
+	}
+	
+	ai_strategy = {
+		type = contain
+		id = "HUN"
+		value = 400
+	}
+	ai_strategy = {
+		type = contain
+		id = "SOV"
+		value = 325
+	}
+	ai_strategy = {
+		type = contain
+		id = "TUR"
+		value = 144
+	}
+	ai_strategy = {
+		type = contain
+		id = "X82"
+		value = 76
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "HUN"
+		value = 400
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "SOV"
+		value = 151
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "TUR"
+		value = 65
+	}
+	ai_strategy = {
+		type = alliance
+		id = "X74"
+		value = 200
+	}
+	ai_strategy = {
+		type = alliance
+		id = "X79"
+		value = 181
+	}
+	ai_strategy = {
+		type = alliance
+		id = "X82"
+		value = 177
+	}
+	ai_strategy = {
+		type = alliance
+		id = "X30"
+		value = 81
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "X70"
+		value = 65
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "X62"
+		value = 49
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "X85"
+		value = 43
+	}
+}

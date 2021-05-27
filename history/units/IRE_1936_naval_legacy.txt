@@ -1,0 +1,49 @@
+units = {
+	fleet = {
+		name = "2nd Fleet"
+		naval_base = 11371
+		task_force = {
+			name = "2nd Fleet"
+			location = 11371
+			ship = { name = "2nd Sligo Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = IRE } } }
+			ship = { name = "Máire" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = IRE } } }
+		}
+	}
+	fleet = {
+		name = "3rd Fleet"
+		naval_base = 11371
+		task_force = {
+			name = "3rd Fleet"
+			location = 11371
+			ship = { name = "3rd Sligo Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = IRE } } }
+			ship = { name = "1st Limerick Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = IRE } } }
+			ship = { name = "1st Sligo Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = IRE } } }
+			ship = { name = "1st Belfast Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = IRE } } }
+			ship = { name = "Róisín" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = IRE } } }
+			ship = { name = "Esther" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = IRE } } }
+			ship = { name = "Michelle" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = IRE } } }
+			ship = { name = "Peigi" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = IRE } } }
+		}
+	}
+}
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = destroyer_1
+			creator = "IRE"
+		}
+		requested_factories = 3
+		progress = 0.25
+		amount = 10
+	}
+	add_equipment_production = {
+		equipment = {
+			type = battleship_1
+			creator = "IRE"
+		}
+		requested_factories = 8
+		progress = 0.25
+		amount = 3
+	}
+}

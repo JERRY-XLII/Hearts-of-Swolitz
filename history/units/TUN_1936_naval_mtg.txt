@@ -1,0 +1,28 @@
+units = {
+	fleet = {
+		name = "1st Fleet"
+		naval_base = 7005
+		task_force = {
+			name = "1st Fleet"
+			location = 7005
+			ship = { name = "Falah" definition = destroyer start_experience_factor = 0.3 equipment = { ship_hull_light_1 = { amount = 1 owner = TUN version_name = "Early Destroyer" } } }
+			ship = { name = "Faraj" definition = destroyer start_experience_factor = 0.3 equipment = { ship_hull_light_1 = { amount = 1 owner = TUN version_name = "Early Destroyer" } } }
+			ship = { name = "Ghassan" definition = destroyer start_experience_factor = 0.3 equipment = { ship_hull_light_1 = { amount = 1 owner = TUN version_name = "Early Destroyer" } } }
+			ship = { name = "Fawzan" definition = destroyer start_experience_factor = 0.3 equipment = { ship_hull_light_1 = { amount = 1 owner = TUN version_name = "Early Destroyer" } } }
+			ship = { name = "Hanbal" definition = destroyer start_experience_factor = 0.3 equipment = { ship_hull_light_1 = { amount = 1 owner = TUN version_name = "Early Destroyer" } } }
+		}
+	}
+}
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_light_1
+			creator = "TUN"
+			version_name = "Early Destroyer"
+		}
+		requested_factories = 3
+		progress = 0.25
+		amount = 10
+	}
+}
