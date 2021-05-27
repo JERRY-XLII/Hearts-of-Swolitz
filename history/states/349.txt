@@ -9,7 +9,7 @@ state={
 	}
 
 	history={
-		owner = MEX
+		owner = X35
 		victory_points = {
 			4607 1 
 		}
@@ -20,7 +20,8 @@ state={
 			air_base = 0
 
 		}
-		add_core_of = MEX
+		add_core_of = X35
+		add_claim_by = MEX
 		add_core_of = USA
 	}
 

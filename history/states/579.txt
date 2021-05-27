@@ -7,7 +7,7 @@ state={
 	}
 
 	history={
-		owner = USA
+		owner = QUE
 		victory_points = {
 			4540 3 
 		}
@@ -19,6 +19,7 @@ state={
 
 		}
 		add_core_of = USA
+		add_core_of = QUE
 	}
 
 	provinces={

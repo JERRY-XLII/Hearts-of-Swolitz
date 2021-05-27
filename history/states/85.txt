@@ -23,7 +23,8 @@ state={
 
 		}
 		add_core_of = CAL
-		add_claim_by = USA
+		add_claim_by = MEX
+		add_core_of = USA
 	}
 
 	provinces={
