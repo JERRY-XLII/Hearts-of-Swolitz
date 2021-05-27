@@ -1,0 +1,99 @@
+units = {
+	fleet = {
+		name = "1st Fleet"
+		naval_base = 1356
+		task_force = {
+			name = "1st Fleet"
+			location = 1356
+			ship = { name = "3rd Fredericton Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = QUE } } }
+			ship = { name = "4th Chicoutimi Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = QUE } } }
+			ship = { name = "4th Fredericton Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = QUE } } }
+			ship = { name = "5th Fredericton Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = QUE } } }
+			ship = { name = "1st Fredericton Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = QUE } } }
+			ship = { name = "1st Millertown Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = QUE } } }
+			ship = { name = "7th Fort Albany Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = QUE } } }
+			ship = { name = "5th Chicoutimi Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = QUE } } }
+			ship = { name = "2nd Millertown Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = QUE } } }
+			ship = { name = "6th Fort Albany Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = QUE } } }
+			ship = { name = "7th Chicoutimi Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = QUE } } }
+			ship = { name = "8th Chicoutimi Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = QUE } } }
+			ship = { name = "4th Chicoutimi Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = QUE } } }
+			ship = { name = "Détroit" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = QUE } } }
+			ship = { name = "Trois-Rivières" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = QUE } } }
+			ship = { name = "Champlain" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = QUE } } }
+			ship = { name = "1st Fort Albany Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = QUE } } }
+			ship = { name = "4th Fort Albany Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = QUE } } }
+			ship = { name = "4th Fredericton Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = QUE } } }
+			ship = { name = "3rd Fort Albany Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = QUE } } }
+			ship = { name = "2nd Fort Albany Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = QUE } } }
+			ship = { name = "1st Fredericton Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = QUE } } }
+			ship = { name = "Frontenac" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = QUE } } }
+		}
+	}
+	fleet = {
+		name = "5th Fleet"
+		naval_base = 1424
+		task_force = {
+			name = "5th Fleet"
+			location = 1424
+			ship = { name = "3rd Fort Albany Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = QUE } } }
+			ship = { name = "2nd Chicoutimi Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = QUE } } }
+			ship = { name = "5th Fort Albany Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = QUE } } }
+			ship = { name = "2nd Fredericton Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = QUE } } }
+			ship = { name = "4th Millertown Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = QUE } } }
+			ship = { name = "1st Chicoutimi Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = QUE } } }
+			ship = { name = "8th Fort Albany Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = QUE } } }
+			ship = { name = "3rd Millertown Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = QUE } } }
+			ship = { name = "5th Millertown Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = QUE } } }
+			ship = { name = "9th Fort Albany Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = QUE } } }
+			ship = { name = "4th Fort Albany Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = QUE } } }
+			ship = { name = "2nd Fort Albany Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = QUE } } }
+			ship = { name = "6th Chicoutimi Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = QUE } } }
+			ship = { name = "10th Fort Albany Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = QUE } } }
+			ship = { name = "6th Fredericton Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = QUE } } }
+			ship = { name = "3rd Chicoutimi Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = QUE } } }
+			ship = { name = "11th Fort Albany Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = QUE } } }
+			ship = { name = "7th Fredericton Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = QUE } } }
+			ship = { name = "8th Fredericton Battleship" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = QUE } } }
+			ship = { name = "Montcalm" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = QUE } } }
+			ship = { name = "De la Salle" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = QUE } } }
+			ship = { name = "Canada" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = QUE } } }
+			ship = { name = "Vaudreuil" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = QUE } } }
+			ship = { name = "2nd Chicoutimi Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = QUE } } }
+			ship = { name = "Cartier" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = QUE } } }
+			ship = { name = "1st Long Island Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = QUE } } }
+			ship = { name = "2nd Fredericton Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = QUE } } }
+			ship = { name = "Chevalier" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = QUE } } }
+			ship = { name = "Saint-Laurent" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = QUE } } }
+			ship = { name = "3rd Fredericton Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = QUE } } }
+			ship = { name = "Montréal" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = QUE } } }
+			ship = { name = "Richelieu" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = QUE } } }
+			ship = { name = "Acadie" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = QUE } } }
+			ship = { name = "1st Chicoutimi Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = QUE } } }
+			ship = { name = "3rd Chicoutimi Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = QUE } } }
+			ship = { name = "1st Millertown Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = QUE } } }
+			ship = { name = "2nd Millertown Cruiser" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = QUE } } }
+		}
+	}
+}
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = destroyer_1
+			creator = "QUE"
+		}
+		requested_factories = 3
+		progress = 0.25
+		amount = 10
+	}
+	add_equipment_production = {
+		equipment = {
+			type = battleship_1
+			creator = "QUE"
+		}
+		requested_factories = 8
+		progress = 0.25
+		amount = 3
+	}
+}

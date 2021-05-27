@@ -1,0 +1,151 @@
+﻿converted_war_strategies_X68 = {
+	enable = {
+		always = no
+	}
+	
+	ai_strategy = {
+		type = conquer
+		id = "X35"
+		value = 311
+	}
+	ai_strategy = {
+		type = conquer
+		id = "MEX"
+		value = 137
+	}
+	ai_strategy = {
+		type = conquer
+		id = "USA"
+		value = 124
+	}
+	ai_strategy = {
+		type = conquer
+		id = "CAL"
+		value = 66
+	}
+	ai_strategy = {
+		type = conquer
+		id = "QUE"
+		value = 42
+	}
+	ai_strategy = {
+		type = conquer
+		id = "X89"
+		value = 27
+	}
+	ai_strategy = {
+		type = conquer
+		id = "COL"
+		value = 23
+	}
+	ai_strategy = {
+		type = conquer
+		id = "X13"
+		value = 20
+	}
+}
+
+converted_diplo_strategies_X68 = {
+	enable = {
+		tag = X68
+	}
+	abort = {
+		always = no
+	}
+	
+	ai_strategy = {
+		type = contain
+		id = "X35"
+		value = 331
+	}
+	ai_strategy = {
+		type = contain
+		id = "X89"
+		value = 331
+	}
+	ai_strategy = {
+		type = contain
+		id = "CAL"
+		value = 306
+	}
+	ai_strategy = {
+		type = contain
+		id = "MEX"
+		value = 286
+	}
+	ai_strategy = {
+		type = contain
+		id = "COL"
+		value = 103
+	}
+	ai_strategy = {
+		type = contain
+		id = "X13"
+		value = 103
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "X35"
+		value = 210
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "CAL"
+		value = 188
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "MEX"
+		value = 172
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "COL"
+		value = 44
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "USA"
+		value = 41
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "UCV"
+		value = 25
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "QUE"
+		value = 14
+	}
+	ai_strategy = {
+		type = alliance
+		id = "USA"
+		value = 200
+	}
+	ai_strategy = {
+		type = alliance
+		id = "QUE"
+		value = 131
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "CAL"
+		value = 141
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "X63"
+		value = 36
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "ICE"
+		value = 27
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "PAR"
+		value = 24
+	}
+}

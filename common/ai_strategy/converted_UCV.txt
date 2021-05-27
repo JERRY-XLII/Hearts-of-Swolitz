@@ -1,0 +1,61 @@
+﻿converted_war_strategies_UCV = {
+	enable = {
+		always = no
+	}
+	
+	ai_strategy = {
+		type = conquer
+		id = "X35"
+		value = 135
+	}
+}
+
+converted_diplo_strategies_UCV = {
+	enable = {
+		tag = UCV
+	}
+	abort = {
+		always = no
+	}
+	
+	ai_strategy = {
+		type = contain
+		id = "X35"
+		value = 281
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "X35"
+		value = 240
+	}
+	ai_strategy = {
+		type = alliance
+		id = "MEX"
+		value = 200
+	}
+	ai_strategy = {
+		type = alliance
+		id = "X68"
+		value = 157
+	}
+	ai_strategy = {
+		type = alliance
+		id = "USA"
+		value = 157
+	}
+	ai_strategy = {
+		type = alliance
+		id = "QUE"
+		value = 142
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "X84"
+		value = 71
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "X90"
+		value = 49
+	}
+}

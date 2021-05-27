@@ -1,0 +1,116 @@
+﻿converted_war_strategies_X75 = {
+	enable = {
+		always = no
+	}
+	
+	ai_strategy = {
+		type = conquer
+		id = "MON"
+		value = 407
+	}
+	ai_strategy = {
+		type = conquer
+		id = "SOV"
+		value = 155
+	}
+	ai_strategy = {
+		type = conquer
+		id = "ROM"
+		value = 39
+	}
+	ai_strategy = {
+		type = conquer
+		id = "HUN"
+		value = 24
+	}
+	ai_strategy = {
+		type = conquer
+		id = "X74"
+		value = 6
+	}
+}
+
+converted_diplo_strategies_X75 = {
+	enable = {
+		tag = X75
+	}
+	abort = {
+		always = no
+	}
+	
+	ai_strategy = {
+		type = contain
+		id = "MON"
+		value = 387
+	}
+	ai_strategy = {
+		type = contain
+		id = "SOV"
+		value = 280
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "MON"
+		value = 279
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "SOV"
+		value = 144
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "ROM"
+		value = 13
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "HUN"
+		value = 8
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "X74"
+		value = 2
+	}
+	ai_strategy = {
+		type = alliance
+		id = "CHI"
+		value = 200
+	}
+	ai_strategy = {
+		type = alliance
+		id = "X81"
+		value = 110
+	}
+	ai_strategy = {
+		type = alliance
+		id = "X80"
+		value = 92
+	}
+	ai_strategy = {
+		type = alliance
+		id = "X74"
+		value = 3
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "X26"
+		value = 88
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "NZL"
+		value = 60
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "CAM"
+		value = 54
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "EGY"
+		value = 49
+	}
+}

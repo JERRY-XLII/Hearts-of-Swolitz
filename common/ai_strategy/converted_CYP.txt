@@ -1,0 +1,96 @@
+﻿converted_war_strategies_CYP = {
+	enable = {
+		always = no
+	}
+	
+	ai_strategy = {
+		type = conquer
+		id = "QUE"
+		value = 304
+	}
+	ai_strategy = {
+		type = conquer
+		id = "HUN"
+		value = 23
+	}
+	ai_strategy = {
+		type = conquer
+		id = "X68"
+		value = 8
+	}
+}
+
+converted_diplo_strategies_CYP = {
+	enable = {
+		tag = CYP
+	}
+	abort = {
+		always = no
+	}
+	
+	ai_strategy = {
+		type = contain
+		id = "X82"
+		value = 202
+	}
+	ai_strategy = {
+		type = contain
+		id = "X83"
+		value = 73
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "QUE"
+		value = 101
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "X68"
+		value = 49
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "EGY"
+		value = 25
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "HUN"
+		value = 8
+	}
+	ai_strategy = {
+		type = alliance
+		id = "X79"
+		value = 180
+	}
+	ai_strategy = {
+		type = alliance
+		id = "SOV"
+		value = 61
+	}
+	ai_strategy = {
+		type = alliance
+		id = "X74"
+		value = 39
+	}
+	ai_strategy = {
+		type = alliance
+		id = "IRQ"
+		value = 8
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "X70"
+		value = 83
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "X62"
+		value = 27
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "GEO"
+		value = 21
+	}
+}

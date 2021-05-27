@@ -1,0 +1,40 @@
+units = {
+	fleet = {
+		name = "1st Fleet"
+		naval_base = 10993
+		task_force = {
+			name = "1st Fleet"
+			location = 2516
+			ship = { name = "Arihant" definition = destroyer start_experience_factor = 0.15 equipment = { ship_hull_light_1 = { amount = 1 owner = X02 version_name = "Early Destroyer" } } }
+			ship = { name = "Ratnakar" definition = destroyer start_experience_factor = 0.15 equipment = { ship_hull_light_1 = { amount = 1 owner = X02 version_name = "Early Destroyer" } } }
+		}
+	}
+	fleet = {
+		name = "2nd Fleet"
+		naval_base = 10993
+		task_force = {
+			name = "2nd Fleet"
+			location = 8625
+			ship = { name = "Narhari" definition = destroyer start_experience_factor = 0.13636 equipment = { ship_hull_light_1 = { amount = 1 owner = X02 version_name = "Early Destroyer" } } }
+			ship = { name = "Makarand" definition = destroyer start_experience_factor = 0.13636 equipment = { ship_hull_light_1 = { amount = 1 owner = X02 version_name = "Early Destroyer" } } }
+			ship = { name = "Anupam" definition = destroyer start_experience_factor = 0.13636 equipment = { ship_hull_light_1 = { amount = 1 owner = X02 version_name = "Early Destroyer" } } }
+			ship = { name = "Dhananjay" definition = destroyer start_experience_factor = 0.13636 equipment = { ship_hull_light_1 = { amount = 1 owner = X02 version_name = "Early Destroyer" } } }
+			ship = { name = "Kaushal" definition = destroyer start_experience_factor = 0.13636 equipment = { ship_hull_light_1 = { amount = 1 owner = X02 version_name = "Early Destroyer" } } }
+			ship = { name = "Hemendra" definition = destroyer start_experience_factor = 0.13636 equipment = { ship_hull_light_1 = { amount = 1 owner = X02 version_name = "Early Destroyer" } } }
+			ship = { name = "Shashwat" definition = destroyer start_experience_factor = 0.2 equipment = { ship_hull_light_1 = { amount = 1 owner = X02 version_name = "Early Destroyer" } } }
+		}
+	}
+}
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_light_1
+			creator = "X02"
+			version_name = "Early Destroyer"
+		}
+		requested_factories = 3
+		progress = 0.25
+		amount = 10
+	}
+}

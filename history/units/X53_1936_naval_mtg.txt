@@ -1,0 +1,40 @@
+units = {
+	fleet = {
+		name = "1st Fleet"
+		naval_base = 7658
+		task_force = {
+			name = "1st Fleet"
+			location = 7658
+			ship = { name = "11th Banda Aceh Commerce Raider" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = X53 version_name = "Early Destroyer" } } }
+			ship = { name = "12th Banda Aceh Commerce Raider" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = X53 version_name = "Early Destroyer" } } }
+			ship = { name = "13th Banda Aceh Commerce Raider" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = X53 version_name = "Early Destroyer" } } }
+			ship = { name = "14th Banda Aceh Commerce Raider" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = X53 version_name = "Early Destroyer" } } }
+			ship = { name = "15th Banda Aceh Commerce Raider" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = X53 version_name = "Early Destroyer" } } }
+			ship = { name = "16th Banda Aceh Commerce Raider" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = X53 version_name = "Early Destroyer" } } }
+			ship = { name = "17th Banda Aceh Commerce Raider" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = X53 version_name = "Early Destroyer" } } }
+			ship = { name = "1st Banda Aceh Commerce Raider" definition = destroyer start_experience_factor = 0.24875 equipment = { ship_hull_light_1 = { amount = 1 owner = X53 version_name = "Early Destroyer" } } }
+			ship = { name = "2nd Banda Aceh Commerce Raider" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = X53 version_name = "Early Destroyer" } } }
+			ship = { name = "3rd Banda Aceh Commerce Raider" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = X53 version_name = "Early Destroyer" } } }
+			ship = { name = "4th Banda Aceh Commerce Raider" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = X53 version_name = "Early Destroyer" } } }
+			ship = { name = "5th Banda Aceh Commerce Raider" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = X53 version_name = "Early Destroyer" } } }
+			ship = { name = "6th Banda Aceh Commerce Raider" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = X53 version_name = "Early Destroyer" } } }
+			ship = { name = "7th Banda Aceh Commerce Raider" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = X53 version_name = "Early Destroyer" } } }
+			ship = { name = "8th Banda Aceh Commerce Raider" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = X53 version_name = "Early Destroyer" } } }
+			ship = { name = "9th Banda Aceh Commerce Raider" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = X53 version_name = "Early Destroyer" } } }
+			ship = { name = "10th Banda Aceh Commerce Raider" definition = destroyer start_experience_factor = 0.25 equipment = { ship_hull_light_1 = { amount = 1 owner = X53 version_name = "Early Destroyer" } } }
+		}
+	}
+}
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_light_1
+			creator = "X53"
+			version_name = "Early Destroyer"
+		}
+		requested_factories = 3
+		progress = 0.25
+		amount = 10
+	}
+}

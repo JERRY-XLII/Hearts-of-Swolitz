@@ -1,0 +1,52 @@
+units = {
+	fleet = {
+		name = "1st Fleet"
+		naval_base = 6287
+		task_force = {
+			name = "1st Fleet"
+			location = 6287
+			ship = { name = "1st Malmö Dreadnought" definition = battleship start_experience_factor = 0.3 equipment = { ship_hull_heavy_2 = { amount = 1 owner = X74 version_name = "1936 Battleship" } } }
+			ship = { name = "1st Reval Dreadnought" definition = battleship start_experience_factor = 0.3 equipment = { ship_hull_heavy_2 = { amount = 1 owner = X74 version_name = "1936 Battleship" } } }
+			ship = { name = "1st Kiel Dreadnought" definition = battleship start_experience_factor = 0.3 equipment = { ship_hull_heavy_2 = { amount = 1 owner = X74 version_name = "1936 Battleship" } } }
+			ship = { name = "1st Copenhagen Dreadnought" definition = battleship start_experience_factor = 0.3 equipment = { ship_hull_heavy_2 = { amount = 1 owner = X74 version_name = "1936 Battleship" } } }
+			ship = { name = "1st Swinemünde Dreadnought" definition = battleship start_experience_factor = 0.3 equipment = { ship_hull_heavy_2 = { amount = 1 owner = X74 version_name = "1936 Battleship" } } }
+			ship = { name = "1st Kaliningrad Dreadnought" definition = battleship start_experience_factor = 0.3 equipment = { ship_hull_heavy_2 = { amount = 1 owner = X74 version_name = "1936 Battleship" } } }
+			ship = { name = "2nd Malmö Dreadnought" definition = battleship start_experience_factor = 0.3 equipment = { ship_hull_heavy_2 = { amount = 1 owner = X74 version_name = "1936 Battleship" } } }
+			ship = { name = "2nd Reval Dreadnought" definition = battleship start_experience_factor = 0.3 equipment = { ship_hull_heavy_2 = { amount = 1 owner = X74 version_name = "1936 Battleship" } } }
+			ship = { name = "2nd Kiel Dreadnought" definition = battleship start_experience_factor = 0.3 equipment = { ship_hull_heavy_2 = { amount = 1 owner = X74 version_name = "1936 Battleship" } } }
+			ship = { name = "2nd Copenhagen Dreadnought" definition = battleship start_experience_factor = 0.3 equipment = { ship_hull_heavy_2 = { amount = 1 owner = X74 version_name = "1936 Battleship" } } }
+			ship = { name = "2nd Swinemünde Dreadnought" definition = battleship start_experience_factor = 0.3 equipment = { ship_hull_heavy_2 = { amount = 1 owner = X74 version_name = "1936 Battleship" } } }
+			ship = { name = "2nd Kaliningrad Dreadnought" definition = battleship start_experience_factor = 0.3 equipment = { ship_hull_heavy_2 = { amount = 1 owner = X74 version_name = "1936 Battleship" } } }
+			ship = { name = "3rd Malmö Dreadnought" definition = battleship start_experience_factor = 0.3 equipment = { ship_hull_heavy_2 = { amount = 1 owner = X74 version_name = "1936 Battleship" } } }
+			ship = { name = "3rd Reval Dreadnought" definition = battleship start_experience_factor = 0.3 equipment = { ship_hull_heavy_2 = { amount = 1 owner = X74 version_name = "1936 Battleship" } } }
+			ship = { name = "3rd Kiel Dreadnought" definition = battleship start_experience_factor = 0.3 equipment = { ship_hull_heavy_2 = { amount = 1 owner = X74 version_name = "1936 Battleship" } } }
+			ship = { name = "3rd Copenhagen Dreadnought" definition = battleship start_experience_factor = 0.3 equipment = { ship_hull_heavy_2 = { amount = 1 owner = X74 version_name = "1936 Battleship" } } }
+			ship = { name = "3rd Swinemünde Dreadnought" definition = battleship start_experience_factor = 0.3 equipment = { ship_hull_heavy_2 = { amount = 1 owner = X74 version_name = "1936 Battleship" } } }
+			ship = { name = "3rd Kaliningrad Dreadnought" definition = battleship start_experience_factor = 0.3 equipment = { ship_hull_heavy_2 = { amount = 1 owner = X74 version_name = "1936 Battleship" } } }
+			ship = { name = "1st Banjul Commerce Raider" definition = destroyer start_experience_factor = 0.03459 equipment = { ship_hull_light_2 = { amount = 1 owner = X74 version_name = "1936 Destroyer" } } }
+		}
+	}
+}
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_light_2
+			creator = "X74"
+			version_name = "1936 Destroyer"
+		}
+		requested_factories = 3
+		progress = 0.25
+		amount = 10
+	}
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_heavy_2
+			creator = "X74"
+			version_name = "1936 Battleship"
+		}
+		requested_factories = 8
+		progress = 0.25
+		amount = 3
+	}
+}

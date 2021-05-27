@@ -1,0 +1,141 @@
+﻿converted_war_strategies_JAP = {
+	enable = {
+		always = no
+	}
+	
+	ai_strategy = {
+		type = conquer
+		id = "CHI"
+		value = 216
+	}
+	ai_strategy = {
+		type = conquer
+		id = "QUE"
+		value = 200
+	}
+	ai_strategy = {
+		type = conquer
+		id = "X88"
+		value = 85
+	}
+	ai_strategy = {
+		type = conquer
+		id = "USA"
+		value = 56
+	}
+	ai_strategy = {
+		type = conquer
+		id = "MEX"
+		value = 16
+	}
+	ai_strategy = {
+		type = conquer
+		id = "X68"
+		value = 8
+	}
+}
+
+converted_diplo_strategies_JAP = {
+	enable = {
+		tag = JAP
+	}
+	abort = {
+		always = no
+	}
+	
+	ai_strategy = {
+		type = contain
+		id = "CHI"
+		value = 400
+	}
+	ai_strategy = {
+		type = contain
+		id = "X55"
+		value = 156
+	}
+	ai_strategy = {
+		type = contain
+		id = "X88"
+		value = 112
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "QUE"
+		value = 200
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "CHI"
+		value = 122
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "X68"
+		value = 96
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "CAM"
+		value = 90
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "LAO"
+		value = 87
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "USA"
+		value = 56
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "MEX"
+		value = 16
+	}
+	ai_strategy = {
+		type = alliance
+		id = "X55"
+		value = 12
+	}
+	ai_strategy = {
+		type = alliance
+		id = "X33"
+		value = 5
+	}
+	ai_strategy = {
+		type = alliance
+		id = "RAJ"
+		value = 2
+	}
+	ai_strategy = {
+		type = protect
+		id = "X55"
+		value = 220
+	}
+	ai_strategy = {
+		type = protect
+		id = "X33"
+		value = 20
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "FRA"
+		value = 121
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "X82"
+		value = 59
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "USA"
+		value = 51
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "HUN"
+		value = 42
+	}
+}

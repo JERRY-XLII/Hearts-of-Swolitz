@@ -1,0 +1,50 @@
+units = {
+	fleet = {
+		name = "1st Fleet"
+		naval_base = 10730
+		task_force = {
+			name = "1st Fleet"
+			location = 10730
+			ship = { name = "New Mexico" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = X68 } } }
+		}
+	}
+	fleet = {
+		name = "3rd Fleet"
+		naval_base = 10730
+		task_force = {
+			name = "3rd Fleet"
+			location = 10730
+			ship = { name = "Peoria" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = X68 } } }
+		}
+	}
+	fleet = {
+		name = "5th Fleet"
+		naval_base = 10730
+		task_force = {
+			name = "5th Fleet"
+			location = 10730
+			ship = { name = "Yuma" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = X68 } } }
+		}
+	}
+}
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = destroyer_1
+			creator = "X68"
+		}
+		requested_factories = 3
+		progress = 0.25
+		amount = 10
+	}
+	add_equipment_production = {
+		equipment = {
+			type = battleship_1
+			creator = "X68"
+		}
+		requested_factories = 8
+		progress = 0.25
+		amount = 3
+	}
+}

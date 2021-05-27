@@ -1,0 +1,41 @@
+units = {
+	fleet = {
+		name = "2nd Fleet"
+		naval_base = 12406
+		task_force = {
+			name = "2nd Fleet"
+			location = 12406
+			ship = { name = "1st Sydney Commerce Raider" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = X88 } } }
+			ship = { name = "1st Adelaide Commerce Raider" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = X88 } } }
+			ship = { name = "2nd Adelaide Commerce Raider" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = X88 } } }
+			ship = { name = "1st Warmambool Commerce Raider" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = X88 } } }
+			ship = { name = "3rd Adelaide Commerce Raider" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = X88 } } }
+			ship = { name = "2nd Sydney Commerce Raider" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = X88 } } }
+			ship = { name = "4th Adelaide Commerce Raider" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = X88 } } }
+			ship = { name = "3rd Sydney Commerce Raider" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = X88 } } }
+			ship = { name = "2nd Warmambool Commerce Raider" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = X88 } } }
+			ship = { name = "1st Dampier Commerce Raider" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = X88 } } }
+		}
+	}
+}
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = destroyer_1
+			creator = "X88"
+		}
+		requested_factories = 3
+		progress = 0.25
+		amount = 10
+	}
+	add_equipment_production = {
+		equipment = {
+			type = battleship_1
+			creator = "X88"
+		}
+		requested_factories = 8
+		progress = 0.25
+		amount = 3
+	}
+}

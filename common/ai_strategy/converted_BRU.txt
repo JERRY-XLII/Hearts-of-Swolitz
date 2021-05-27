@@ -1,0 +1,16 @@
+﻿converted_war_strategies_BRU = {
+	enable = {
+		always = no
+	}
+	
+}
+
+converted_diplo_strategies_BRU = {
+	enable = {
+		tag = BRU
+	}
+	abort = {
+		always = no
+	}
+	
+}

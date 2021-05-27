@@ -1,0 +1,61 @@
+﻿converted_war_strategies_X31 = {
+	enable = {
+		always = no
+	}
+	
+	ai_strategy = {
+		type = conquer
+		id = "COL"
+		value = 644
+	}
+	ai_strategy = {
+		type = conquer
+		id = "MEX"
+		value = 272
+	}
+}
+
+converted_diplo_strategies_X31 = {
+	enable = {
+		tag = X31
+	}
+	abort = {
+		always = no
+	}
+	
+	ai_strategy = {
+		type = contain
+		id = "COL"
+		value = 281
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "COL"
+		value = 400
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "MEX"
+		value = 79
+	}
+	ai_strategy = {
+		type = alliance
+		id = "CUB"
+		value = 68
+	}
+	ai_strategy = {
+		type = alliance
+		id = "MEX"
+		value = 55
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "X90"
+		value = 38
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "X65"
+		value = 37
+	}
+}

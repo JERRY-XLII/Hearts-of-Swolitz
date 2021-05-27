@@ -1,0 +1,59 @@
+units = {
+	fleet = {
+		name = "3rd Fleet"
+		naval_base = 758
+		task_force = {
+			name = "3rd Fleet"
+			location = 758
+			ship = { name = "3rd Oporto Battleship" definition = heavy_cruiser start_experience_factor = 0.21806 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = X20 version_name = "Early Heavy Cruiser" } } }
+			ship = { name = "4th Oporto Battleship" definition = heavy_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = X20 version_name = "Early Heavy Cruiser" } } }
+			ship = { name = "2nd La Coruña Battleship" definition = heavy_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = X20 version_name = "Early Heavy Cruiser" } } }
+			ship = { name = "2nd Oporto Battleship" definition = heavy_cruiser start_experience_factor = 0.25387 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = X20 version_name = "Early Heavy Cruiser" } } }
+			ship = { name = "2nd Coimbra Battleship" definition = heavy_cruiser start_experience_factor = 0.23806 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = X20 version_name = "Early Heavy Cruiser" } } }
+			ship = { name = "1st Beja Battleship" definition = heavy_cruiser start_experience_factor = 0.24598 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = X20 version_name = "Early Heavy Cruiser" } } }
+			ship = { name = "4th Coimbra Battleship" definition = heavy_cruiser start_experience_factor = 0.25179 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = X20 version_name = "Early Heavy Cruiser" } } }
+			ship = { name = "3rd Beja Battleship" definition = heavy_cruiser start_experience_factor = 0.23625 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = X20 version_name = "Early Heavy Cruiser" } } }
+			ship = { name = "5th Coimbra Battleship" definition = heavy_cruiser start_experience_factor = 0.23505 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = X20 version_name = "Early Heavy Cruiser" } } }
+			ship = { name = "3rd Coimbra Battleship" definition = heavy_cruiser start_experience_factor = 0.2439 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = X20 version_name = "Early Heavy Cruiser" } } }
+			ship = { name = "2nd Beja Battleship" definition = heavy_cruiser start_experience_factor = 0.24751 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = X20 version_name = "Early Heavy Cruiser" } } }
+			ship = { name = "1st Coimbra Battleship" definition = heavy_cruiser start_experience_factor = 0.27696 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = X20 version_name = "Early Heavy Cruiser" } } }
+			ship = { name = "1st Oporto Battleship" definition = heavy_cruiser start_experience_factor = 0.23616 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = X20 version_name = "Early Heavy Cruiser" } } }
+			ship = { name = "3rd La Coruña Battleship" definition = heavy_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = X20 version_name = "Early Heavy Cruiser" } } }
+			ship = { name = "4th La Coruña Battleship" definition = heavy_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = X20 version_name = "Early Heavy Cruiser" } } }
+			ship = { name = "4th Beja Battleship" definition = heavy_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = X20 version_name = "Early Heavy Cruiser" } } }
+			ship = { name = "5th La Coruña Battleship" definition = heavy_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = X20 version_name = "Early Heavy Cruiser" } } }
+			ship = { name = "5th Beja Battleship" definition = heavy_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = X20 version_name = "Early Heavy Cruiser" } } }
+			ship = { name = "2nd Coimbra Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = X20 version_name = "Early Light Cruiser" } } }
+			ship = { name = "3rd Beja Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = X20 version_name = "Early Light Cruiser" } } }
+			ship = { name = "1st La Coruña Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = X20 version_name = "Early Light Cruiser" } } }
+			ship = { name = "4th Beja Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = X20 version_name = "Early Light Cruiser" } } }
+			ship = { name = "1st Beja Cruiser" definition = light_cruiser start_experience_factor = 0.25505 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = X20 version_name = "Early Light Cruiser" } } }
+			ship = { name = "Adamastor" definition = light_cruiser start_experience_factor = 0.22391 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = X20 version_name = "Early Light Cruiser" } } }
+			ship = { name = "D. Carlos I" definition = light_cruiser start_experience_factor = 0.2451 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = X20 version_name = "Early Light Cruiser" } } }
+			ship = { name = "Almirante Reis" definition = light_cruiser start_experience_factor = 0.24053 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = X20 version_name = "Early Light Cruiser" } } }
+			ship = { name = "Gil Eannes" definition = light_cruiser start_experience_factor = 0.29494 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = X20 version_name = "Early Light Cruiser" } } }
+			ship = { name = "1st Coimbra Cruiser" definition = light_cruiser start_experience_factor = 0.29731 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = X20 version_name = "Early Light Cruiser" } } }
+			ship = { name = "República" definition = light_cruiser start_experience_factor = 0.28122 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = X20 version_name = "Early Light Cruiser" } } }
+			ship = { name = "Pedro Nunes" definition = light_cruiser start_experience_factor = 0.27098 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = X20 version_name = "Early Light Cruiser" } } }
+			ship = { name = "S. Gabriel" definition = light_cruiser start_experience_factor = 0.2997 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = X20 version_name = "Early Light Cruiser" } } }
+			ship = { name = "2nd Beja Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = X20 version_name = "Early Light Cruiser" } } }
+			ship = { name = "2nd La Coruña Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = X20 version_name = "Early Light Cruiser" } } }
+			ship = { name = "5th Beja Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = X20 version_name = "Early Light Cruiser" } } }
+			ship = { name = "6th Beja Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = X20 version_name = "Early Light Cruiser" } } }
+			ship = { name = "3rd La Coruña Cruiser" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = X20 version_name = "Early Light Cruiser" } } }
+		}
+	}
+}
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_light_1
+			creator = "X20"
+			version_name = "Early Destroyer"
+		}
+		requested_factories = 3
+		progress = 0.25
+		amount = 10
+	}
+}

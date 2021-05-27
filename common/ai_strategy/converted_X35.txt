@@ -1,0 +1,151 @@
+﻿converted_war_strategies_X35 = {
+	enable = {
+		always = no
+	}
+	
+	ai_strategy = {
+		type = conquer
+		id = "QUE"
+		value = 1100
+	}
+	ai_strategy = {
+		type = conquer
+		id = "MEX"
+		value = 907
+	}
+	ai_strategy = {
+		type = conquer
+		id = "USA"
+		value = 698
+	}
+	ai_strategy = {
+		type = conquer
+		id = "UCV"
+		value = 135
+	}
+	ai_strategy = {
+		type = conquer
+		id = "FLA"
+		value = 113
+	}
+	ai_strategy = {
+		type = conquer
+		id = "CAL"
+		value = 35
+	}
+}
+
+converted_diplo_strategies_X35 = {
+	enable = {
+		tag = X35
+	}
+	abort = {
+		always = no
+	}
+	
+	ai_strategy = {
+		type = contain
+		id = "USA"
+		value = 333
+	}
+	ai_strategy = {
+		type = contain
+		id = "QUE"
+		value = 155
+	}
+	ai_strategy = {
+		type = contain
+		id = "MEX"
+		value = 143
+	}
+	ai_strategy = {
+		type = contain
+		id = "FLA"
+		value = 102
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "UCV"
+		value = 400
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "MEX"
+		value = 301
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "QUE"
+		value = 259
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "USA"
+		value = 230
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "CAL"
+		value = 126
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "X36"
+		value = 94
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "X68"
+		value = 74
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "X90"
+		value = 74
+	}
+	ai_strategy = {
+		type = alliance
+		id = "X78"
+		value = 124
+	}
+	ai_strategy = {
+		type = alliance
+		id = "FRA"
+		value = 120
+	}
+	ai_strategy = {
+		type = alliance
+		id = "COL"
+		value = 83
+	}
+	ai_strategy = {
+		type = alliance
+		id = "X68"
+		value = 5
+	}
+	ai_strategy = {
+		type = protect
+		id = "CAL"
+		value = 65
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "X68"
+		value = 99
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "ICE"
+		value = 95
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "SAX"
+		value = 49
+	}
+	ai_strategy = {
+		type = declare_war
+		id = "PAR"
+		value = 36
+	}
+}
