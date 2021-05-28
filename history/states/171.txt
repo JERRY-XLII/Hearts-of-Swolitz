@@ -8,7 +8,7 @@ state={
 	}
 
 	history={
-		owner = FLA
+		owner = X35
 		victory_points = {
 			1836 0 
 		}
@@ -19,6 +19,8 @@ state={
 			air_base = 1
 
 		}
+		add_claim_by = USA
+		add_core_of = X35
 	}
 
 	provinces={

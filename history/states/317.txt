@@ -7,7 +7,7 @@ state={
 	}
 
 	history={
-		owner = X35
+		owner = QUE
 		victory_points = {
 			490 0 
 		}
@@ -21,6 +21,7 @@ state={
 			air_base = 0
 
 		}
+		add_core_of = QUE
 	}
 
 	provinces={

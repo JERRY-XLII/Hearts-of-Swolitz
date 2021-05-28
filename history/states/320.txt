@@ -22,11 +22,10 @@ state={
 			air_base = 10
 
 		}
-		add_core_of = X14
-		add_core_of = X57
+		add_core_of = X35
 		add_claim_by = CAL
-		add_claim_by = USA
-		add_claim_by = X68
+		add_claim_by = MEX
+		add_core_of = USA
 	}
 
 	provinces={
